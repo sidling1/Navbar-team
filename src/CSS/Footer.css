@@ -1,0 +1,12 @@
+.footer{
+    display: inline-block;
+}
+ul{
+    height: 20vh;
+    width: 100vw;
+    margin-left: 20px;
+    text-align: left;
+}
+li{
+    margin: -4rem;
+}

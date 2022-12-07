@@ -3,8 +3,6 @@
 }
 .active{
     color: blue;
-    height: 12vh;
-    /* padding-top: 9vh; */
     background-image: url('../images/Back.png');
     background-size: 7vh 7vh;
     background-repeat: no-repeat;
