@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import Nav from './Nav'
 
 function Events() {
@@ -6,6 +7,7 @@ function Events() {
     <div>
         <Nav />
         <h1>Events Page</h1>
+        <Footer />
     </div>
   )
 }

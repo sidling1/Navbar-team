@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import Nav from './Nav'
 
 function Campaigns() {
@@ -6,6 +7,7 @@ function Campaigns() {
     <div>
         <Nav />
         <h1>Campaigns Page</h1>
+        <Footer />
     </div>
   )
 }

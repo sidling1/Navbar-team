@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import Nav from './Nav'
 
 function Sponsors() {
@@ -6,6 +7,7 @@ function Sponsors() {
     <div>
         <Nav/> 
         <h1>Sponsors Page</h1>
+        <Footer />
     </div>
   )
 }
