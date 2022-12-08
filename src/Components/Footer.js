@@ -4,9 +4,10 @@ function Footer() {
   return (
     <div style={{
         backgroundColor: 'black',
-        color: 'white'
+        color: 'white',
+       
     }} className='footer'>
-        <div>
+        <div classname='options'>
             <ul>
                 <li>EVENTS</li>
                 <li>MERCH</li>
@@ -17,26 +18,43 @@ function Footer() {
                 <li>CONTESTS</li>
             </ul>
         </div>
-        <div>HAIL <br></br> ALCHER!!</div>
+        <div className='hail'>HAIL <br></br> ALCHER!!</div>
         <div>
-            <div>
-                Shareka Iqbal <br></br>
-                PR HEAD<br></br>
-                +91 8919054239
+            <div className='red'>
+               
             </div>
-            <div>
-                Abhishek Singh<br></br>
-                PR HEAD<br></br>
-                +91 9983072631
+            <div className='green'>
+                
+            </div>
+            <div className='violet'>
+                
+            </div>
+            <div className='yellow'>
+                
             </div>
         </div>
+        
+        <div className='shareka'>
+            <b>Shareka Iqbal</b> <br></br>
+             PR HEAD<br></br>
+             +91 8919054239
+        </div>
+        <div className='abhi'>
+               <b>Abhishek Singh</b> <br></br>
+                PR HEAD<br></br>
+                +91 9983072631
+        </div>
+        
         <div>Alcher Logo</div>
         <div>
             <a href=''></a>
             <a href=''></a>
             <a href=''></a>
             <a href=''></a>
+            <div className='inqueries'>
             For Business Inqueries: <b>alcheringa@iitg.ac.in</b>
+            </div>
+            
         </div>
     </div>
   )
