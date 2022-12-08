@@ -1,11 +1,15 @@
 .footer{
     position: absolute;
-    width: 1520px;
+    width: 100%;
     height: 732px;
     left: 0px;
     top: 1754px;
 
     background: #0B0B0B;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 /*ul{
     height: 20vh;
@@ -17,80 +21,118 @@ li{
     margin: -4rem;
 } */
 
+
+.hail{
+    margin-top:40%;
+    margin-left:25%;
+    
+    font-family: 'Aka-AcidGR-Compacta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 98px;
+    /* or 81% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FEFCF0;
+    
+    text-shadow: 0px 14px 40px rgba(0, 0, 0, 0.2);
+}
+
+.inqueries{
+    
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.red img{
+    width: 150px;
+    height: 245px;
+}
+
+.violet img{
+    width: 164px;
+    height: 234.99px;
+}
+
+.green img{
+    width: 189.54px;
+    height: 229.13px;
+}
+
+.yellow img{
+    width: 137.27px;
+    height: 265.79px;
+}
+
+.stones{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30%;
+    height: 60%;
+}
+
+.footer li{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.contact{
+    border: 1px solid red;
+}
+
 .shareka{
-
-    position: absolute;
-    width: 156 px;
-    height: 72px;
-    right: 120px;
-    top: 117px;
-
+    border:1px solid red;
     font-family: 'Aileron';
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
     line-height: 24px;
     text-align: right;
-
-    color: #fffffe;
     
+    color: #fffffe;
 }
-.abhi{
-    position: absolute;
-width: 156px;
-height: 72px;
-right: 120px;
-top: 229px;
+    .abhi{
+        border:1px solid red;
+        font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    
+    color: #FEFCF0;
+    
+    }
 
-font-family: 'Aileron';
-font-style: normal;
-font-weight: 900;
-font-size: 20px;
-line-height: 24px;
-text-align: right;
-
-color: #FEFCF0;
-
-}
-
-.hail{
-    position: absolute;
-width: 319px;
-height: 218px;
-left: calc(40% - 319px/2 - 0.5px);
-top: calc(50% - 218px/2 - 15px);
-
-font-family: 'Aka-AcidGR-Compacta';
-font-style: normal;
-font-weight: 400;
-font-size: 120px;
-line-height: 98px;
-/* or 81% */
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-color: #FEFCF0;
-
-text-shadow: 0px 14px 40px rgba(0, 0, 0, 0.2);
-}
-
-.inqueries{
-    position: absolute;
-width: 394px;
-height: 24px;
-right: 120px;
-bottom: 56px;
-
-font-family: 'Aileron';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height */
-
-
-color: #FFFFFF;
-
+.socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
