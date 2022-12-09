@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './fonts/starguardsemital.ttf';
+import './fonts/aileron.regular.otf';
+import './fonts/AC-Compacta.ttf';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -21,16 +21,19 @@ li{
     margin: -4rem;
 } */
 
-
 .hail{
-    margin-top:40%;
-    margin-left:25%;
+    /* HAIL ALCHER! */
+    position: absolute;
+    width: 319px;
+    height: 218px;
+    left: calc(50% - 319px/2 - 0.5px);
+    top: calc(50% - 218px/2 - 15px);
     
     font-family: 'Aka-AcidGR-Compacta';
     font-style: normal;
     font-weight: 400;
     font-size: 120px;
-    line-height: 98px;
+    line-height: 120px;
     /* or 81% */
     
     text-align: center;
@@ -103,12 +106,11 @@ li{
     color: #FFFFFF;
 }
 
-.contact{
-    border: 1px solid red;
+.footer a{
+    color:white;
 }
 
 .shareka{
-    border:1px solid red;
     font-family: 'Aileron';
     font-style: normal;
     font-weight: 900;
@@ -118,8 +120,7 @@ li{
     
     color: #fffffe;
 }
-    .abhi{
-        border:1px solid red;
+.abhi{
         font-family: 'Aileron';
     font-style: normal;
     font-weight: 900;
@@ -133,6 +134,7 @@ li{
 
 .socials{
     display:flex;
+    width: 200px;
     flex-direction: row;
     justify-content: space-between;
 }

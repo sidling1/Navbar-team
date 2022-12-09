@@ -31,7 +31,7 @@ function Footer() {
         <div>Alcher Logo</div>
         </div>
         <div>
-            <div className='hail'>HAIL <br></br> ALCHER!!</div>
+            <div className='hail'>HAIL <br/> ALCHER!</div>
             <div className="stones">
                 <div className='red'>
                     <RedStone/>
@@ -48,18 +48,34 @@ function Footer() {
             </div>
         </div>
         <div>
-            <div className='shareka'>
-                <b>Shareka Iqbal</b> <br></br>
-                PR HEAD<br></br>
-                +91 8919054239
-            </div>
-            <div className='abhi'>
-                <b>Abhishek Singh</b> <br></br>
+            <div style={{
+                display:"flex",
+                flexDirection:"column",
+                position:"absolute",
+                right: "120px",
+                bottom:"431px",
+                height:"184px",
+                justifyContent:"space-between",
+            }}>
+                <div className='shareka'>
+                    <b>Shareka Iqbal</b> <br></br>
                     PR HEAD<br></br>
-                    +91 9983072631
+                    +91 8919054239
+                </div>
+                <div className='abhi'>
+                    <b>Abhishek Singh</b> <br></br>
+                        PR HEAD<br></br>
+                        +91 9983072631
+                </div>
             </div>
-            
-            <div>
+            <div style={{
+                display:"flex",
+                flexDirection:"column",
+                height:"fit-content",
+                position:"absolute",
+                bottom: "56px",
+                right: "120px",
+            }}>
                 <div className="socials">
                     <a href=''><Insta/></a>
                     <a href=''><Facebook/></a>

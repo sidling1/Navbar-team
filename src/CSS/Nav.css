@@ -1,20 +1,24 @@
 *{
     margin-top: 0;
 }
-.active{
+
+a{
+    text-decoration: none;
+}
+
+.NavigationBar .active{
     font-family: 'Star Guard Semi-Italic';
-font-style: italic;
-font-weight: 400;
-font-size: 23px;
-line-height: 25px;
-/* identical to box height, or 205% */
+    font-style: italic;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 25px;
+    /* identical to box height, or 205% */
 
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
 
-color: #FFFFFF;
-
+    color: #FFFFFF;
 }
 header{
     width: 100%;
