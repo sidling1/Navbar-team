@@ -2,15 +2,18 @@ import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import '../CSS/Nav.css'
 import Pictures from './Pictures'
+import Logo from "./Logo"
+import Navpopup from './Navpopup'
+
 function Nav() {
     return (
     <div>
         <header>
-            <div>Alcheringa logo</div>
+            <div><Logo/></div>
             <nav className='NavigationBar'>
                 <ul className='NavigationList'>
-                    <li><NavLink to="/Events">EVENTS</NavLink></li>
-                    <li><NavLink to="/Merch">MERCH</NavLink></li>
+                    <li id="Events"><NavLink to="/Events">EVENTS</NavLink></li>
+                    <li id="Merch"><NavLink to="/Merch">MERCH</NavLink></li>
                     <li><NavLink to="/Campaigns">CAMPAIGNS</NavLink></li>
                     <li><NavLink to="/Teams">TEAMS</NavLink></li>
                     <li><NavLink to="/MUN"> MUN &emsp;</NavLink></li>

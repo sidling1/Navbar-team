@@ -10,12 +10,19 @@ a{
     font-family: 'Star Guard Semi-Italic';
     font-style: italic;
     font-weight: 400;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
     font-size: 23px;
     line-height: 25px;
+
+    margin-top:20px;
+    padding-top:20px;
     background-image: url(../images/Back.png);
+    
+    background-position:top;
     background-repeat: no-repeat;
-    /* identical to box height, or 205% */
-    background-size: 4rem;
+    background-size: contain;
+
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: uppercase;
