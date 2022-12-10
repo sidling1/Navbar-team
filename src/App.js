@@ -23,7 +23,7 @@ function App() {
         <Route path='Sponsors'    element = {<Sponsors />}/>
         <Route path='Contests'    element = {<Contests />}/>
         <Route path='BookTickets' element = {<BookTickets />} />
-        <Route path='*'           element = {<ErrorPage />} />
+        {/* <Route path='*'           element = {<ErrorPage />} /> */}
       </Routes>
     </BrowserRouter>
   );
