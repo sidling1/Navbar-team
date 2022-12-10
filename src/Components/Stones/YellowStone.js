@@ -3,7 +3,7 @@ import pic from '../../images/yellow_stone.png';
 
 const YellowStone = () => {
     return (  
-        <img src={pic}></img>
+        <img src={pic} alt = ""></img>
     );
 }
 

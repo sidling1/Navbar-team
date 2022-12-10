@@ -12,8 +12,10 @@ a{
     font-weight: 400;
     font-size: 23px;
     line-height: 25px;
+    background-image: url(../images/Back.png);
+    background-repeat: no-repeat;
     /* identical to box height, or 205% */
-
+    background-size: 4rem;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: uppercase;
