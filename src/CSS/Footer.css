@@ -43,6 +43,7 @@ li{
     color: #FEFCF0;
     
     text-shadow: 0px 14px 40px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .inqueries{
@@ -62,21 +63,31 @@ li{
 .red img{
     width: 150px;
     height: 245px;
+    position: relative;
+    top: 12vh;
+    left: 18vw;
 }
 
 .violet img{
-    width: 164px;
+    width: 194px;
     height: 234.99px;
+    position: relative;
+    top: 45vh;
 }
 
 .green img{
     width: 189.54px;
     height: 229.13px;
+    position: relative;
+    top: 55vh;
 }
 
 .yellow img{
-    width: 137.27px;
+    width: 187.27px;
     height: 265.79px;
+    position: relative;
+    left: -33vw;
+    top: 20vh;
 }
 
 .stones{
