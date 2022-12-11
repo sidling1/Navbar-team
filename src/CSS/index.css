@@ -10,7 +10,7 @@ background: #FCFFF5;
 }
 
 .rect{
-  position: absolute;
+  position: relative;
 width:100vw;
 height: 260.07px;
 left: 0px;
@@ -21,7 +21,7 @@ top: 225px;
   
 box-sizing: border-box;
 
-position: absolute;
+position: relative;
 width: 100vw;
 height: 167.07px;
 left: 0px;
@@ -33,7 +33,7 @@ box-shadow: 2px 3px 3px yellow;
 }
 
 .para{
-  position: absolute;
+  position: relative;
   width: 100vw;
   height: 159px;
   left: 0px;
@@ -60,7 +60,7 @@ padding: 0px;
 gap: 120px;
 background-color: #FCFFF5; ;
 
-position: absolute;
+position: relative;
 width: 75vw;
 left: 213px;
 top: 530px;
@@ -80,7 +80,7 @@ height: 611px;
   box-sizing: border-box;
   background-image: url(vector.jpeg);
 
-position: absolute;
+position: relative;
 width: 691px;
 height: 183px;
 
@@ -88,7 +88,7 @@ height: 183px;
 }
 .para1{
  
-position: absolute;
+position: relative;
 width: 439px;
 height: 70px;
 left: 126px;
@@ -315,7 +315,7 @@ flex-wrap: wrap;
     right: 100px;
   }
   .oil{
-    position: absolute;
+    position: relative;
   height: 0px;
   width: 0px;
     font-size: medium;
