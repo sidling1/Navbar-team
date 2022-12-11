@@ -1,0 +1,293 @@
+@font-face {
+	font-family: Star semi;
+	src: url(../fonts/starguardsemital.ttf) format("truetype");
+}
+
+html {
+	font-size: 62.5%;
+}
+
+@media(max-width:998px) {
+	html {
+		font-size: 55%;
+	}
+}
+
+@media(max-width:768px) {
+	html {
+		font-size: 45%;
+	}
+}
+
+.Frame14859_Frame14859 {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(255,251,245,1.00);
+}
+.Frame14859_Frame14859 .paperboardyellowtexture2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 405rem;
+	object-fit: cover;
+	overflow: hidden;
+	mix-blend-mode: multiply;
+}
+.Frame14859_Frame14859 .Group244 {
+	position: absolute;
+	left: 24.2%;
+	top: 23.7111328125rem;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	width: 59%;
+	height: 93.50269775390625rem;
+}
+
+.mg1 {
+	position: relative;
+	top: 0rem;
+	left: 0rem;
+	width: 28.832666015625rem;
+	height: 45.21903076171875rem;
+	margin-bottom: 3rem;
+}
+
+.g1 {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+    width: 28.832666015625rem;
+	height: 45.21903076171875rem;
+	background: rgba(254,252,240,1.00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border: 0.238rem solid rgba(25.50000037997961,25.50000037997961,25.50000037997961,1);
+	box-sizing: border-box;
+}
+
+.recef1 {
+	position: absolute;
+	top: 0.2rem;
+	left: 0.2rem;
+	width: 28.832666015625rem;
+	height: 45.21903076171875rem;
+	background: black;
+} 
+
+.r1 {
+    width: 26.83125rem;
+	height: 43.342730712890625rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+    align-items: center;
+}
+
+#r11 {
+    background: rgba(243,92,65,1.00);
+}
+
+.h1 {
+	height: 31.5px;
+    -webkit-text-stroke-width: 0.8px;
+	-webkit-text-stroke-color: black;
+	color: rgba(255,255,255,1.00);
+	font-family: Star Semi;
+	font-size: 36px;
+	font-weight: 900;
+	letter-spacing: -1px;
+	font-style: italic;
+	line-height: 31.27180767059326px;
+}
+
+.iv1 {
+	position: relative;
+	left:0px;
+	top: 0px;
+	height: 25rem;
+	width: 26.83125rem;
+}
+
+.i1 {
+    position: absolute;
+	left: 0px;
+	top: 0px;
+    width: 26.83125rem;
+	height: 25rem;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.shade1 {
+    position: absolute;
+	left: 0px;
+	top: 12.6rem;
+	width: 26.83125rem;
+	height: 12rem;
+	background: linear-gradient(180deg, rgba(243, 92, 65, 0.00) 0.0%, rgba(243, 92, 65, 1.00) 100.0%);
+}
+
+.dti1 {
+    margin-top: 0.17rem;
+	color: rgba(26,26,26,1.00);
+	font-family: 'Aileron', sans-serif;
+	font-size: 1rem;
+	font-weight: 550;
+}
+
+.dte1 {
+    display: flex;
+    align-items: center;
+    width: 15.1rem;
+    justify-content: space-between;
+}
+
+.cal1 {
+    width: 1.2rem;
+	height: 1.2rem;
+}
+
+.t1 {
+	color: rgba(26,26,26,1.00);
+	font-family: 'Aileron', sans-serif;
+	font-size: 1.05rem;
+	letter-spacing:-0.03rem;
+	font-weight: 100;
+	word-spacing: 0.00001rem;
+	line-height: 1.3rem;
+    width: 22rem;
+}
+
+.gr1 {
+    position: relative;
+	left: 7rem;
+	top: 0px;
+	width: 93.1904296875px;
+	height: 32.52264404296875px;
+	border-radius: 39.4024772644043px;
+}
+
+.rct1 {
+    position: absolute;
+	left: 2.1px;
+	top: 2.1px;
+	width: 90.6884765625px;
+	height: 30.0208740234375px;
+	background: rgba(26,26,26,1.00);
+	border-radius: 39.4024772644043px;
+}
+
+.frame1 {
+    position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 91.2802734375px;
+	height: 30.0208740234375px;
+	display: flex;
+	padding-top: 5.003489255905151px;
+	padding-right: 12.50872278213501px;
+	padding-bottom: 5.003489255905151px;
+	padding-left: 12.50872278213501px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	background: rgba(243,92,65,1.00);
+	border-radius: 39.4024772644043px;
+	border: 1.6678297519683838px solid rgba(25.50000037997961,25.50000037997961,25.50000037997961,1);
+	box-sizing: border-box;
+}
+
+.outline1 {
+    position: relative;
+	flex: none;
+	margin-right: 5.003489255905151px;
+	width: 12.50830078125px;
+	height: 12.5086669921875px;
+}
+
+.vector1 {
+    position: absolute;
+	left: 1.52001953125px;
+	top: 2.08502197265625px;
+	width: 91.67349806768942%;
+	height: 66.66715460959686%;
+}
+
+.reg1 {
+    position: relative;
+	flex: none;
+	margin-right: 5.003489255905151px;
+	width: 48.75px;
+	height: 12px;
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	color: rgba(255,255,255,1.00);
+	font-family: 'Aileron',sans-serif;
+	font-size: 9.5px;
+	font-weight: 500;
+	line-height: 12.008374214172363px;
+}
+
+
+.Frame14859_Frame14859 .pronites {
+	position: absolute;
+	left: 11.98%;
+	top: 23.7rem;
+	width: 10.5rem;
+	height: 5.7rem;
+	-webkit-text-stroke-width: 0.05rem;
+	-webkit-text-stroke-color: black;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Star semi;
+	font-style: italic;
+	font-size: 3.2rem;
+	letter-spacing: -0.1rem;
+	font-weight: 900;
+	line-height: 5.678048515319824rem;
+}
+.Frame14859_Frame14859 .CreatorsCamp {
+	position: absolute;
+	left: 12%;
+	top: 30rem;
+	height: 1.8rem;
+	color: rgba(26,26,26,1.00);
+	font-family: 'Aileron',sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1.8rem;
+}
+.Frame14859_Frame14859 .HumourFest {
+	position: absolute;
+	left: 12%;
+	top: 33.6rem;
+	height: 1.8rem;
+	color: rgba(26,26,26,1.00);
+	font-family: 'Aileron',sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1.8rem;
+}
+.Frame14859_Frame14859 .PROSHOWS {
+	position: absolute;
+	left: 12%;
+	top: 37.2rem;
+	height: 1.8rem;
+	color: rgba(26,26,26,1.00);
+	font-family: 'Aileron',sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1.8rem;
+}
