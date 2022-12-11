@@ -53,7 +53,7 @@ function Footer() {
                 flexDirection:"column",
                 position:"absolute",
                 right: "120px",
-                bottom:"431px",
+                bottom:"350px",
                 height:"184px",
                 justifyContent:"space-between",
             }}>
@@ -73,7 +73,7 @@ function Footer() {
                 flexDirection:"column",
                 height:"fit-content",
                 position:"absolute",
-                bottom: "56px",
+                bottom: "50px",
                 right: "120px",
             }}>
                 <div className="socials">
