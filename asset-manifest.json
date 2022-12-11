@@ -1,10 +1,17 @@
 {
   "files": {
-    "main.css": "/Navbar-team/static/css/main.9143efe6.css",
-    "main.js": "/Navbar-team/static/js/main.139eafb8.js",
+    "main.css": "/Navbar-team/static/css/main.66ebb5f3.css",
+    "main.js": "/Navbar-team/static/js/main.1b673196.js",
     "static/js/787.33996a2a.chunk.js": "/Navbar-team/static/js/787.33996a2a.chunk.js",
+    "static/media/Frame14859_paperboardyellowtexture3.png": "/Navbar-team/static/media/Frame14859_paperboardyellowtexture3.9b0f682a1808732b50d4.png",
+    "static/media/Frame14859_image145.png": "/Navbar-team/static/media/Frame14859_image145.7f90053b813c108900f3.png",
+    "static/media/Frame14859_image146.png": "/Navbar-team/static/media/Frame14859_image146.0d67b2af1ac82531b89a.png",
+    "static/media/Frame14859_pngwing1.png": "/Navbar-team/static/media/Frame14859_pngwing1.7c1297eaeb9486613e4d.png",
     "static/media/Back2.svg": "/Navbar-team/static/media/Back2.232a1d04da102222719eb260925a675b.svg",
+    "static/media/hailAlcher.png": "/Navbar-team/static/media/hailAlcher.ed852ed06c020096b3ff.png",
     "static/media/AC-Compacta.ttf": "/Navbar-team/static/media/AC-Compacta.d2faa774cd901f6bce9f.ttf",
+    "static/media/vector.jpeg": "/Navbar-team/static/media/vector.e72380f2e1bce63f7c9b.jpeg",
+    "static/media/sponsor.png": "/Navbar-team/static/media/sponsor.bc6a6e00bbebc1d16d8a.png",
     "static/media/yellow_stone.png": "/Navbar-team/static/media/yellow_stone.68ad12bbaec376010b93.png",
     "static/media/violet_stone.png": "/Navbar-team/static/media/violet_stone.9000bfaec380b1696b15.png",
     "static/media/red_stone.png": "/Navbar-team/static/media/red_stone.dbd6718be4c912bcfcfe.png",
@@ -12,17 +19,18 @@
     "static/media/aileron.regular.otf": "/Navbar-team/static/media/aileron.regular.fbda4f2d3cde2ab23080.otf",
     "static/media/starguardsemital.ttf": "/Navbar-team/static/media/starguardsemital.024c14288b1e80ff5385.ttf",
     "static/media/Back.png": "/Navbar-team/static/media/Back.8bb4e2e511ce6ac7bfad.png",
+    "static/media/BookTickets.jpg": "/Navbar-team/static/media/BookTickets.9eb9d552338f66e8b10b.jpg",
     "static/media/twitter.svg": "/Navbar-team/static/media/twitter.627536ae4da27dee55787b3cc0a67135.svg",
     "static/media/insta.svg": "/Navbar-team/static/media/insta.7074359f3114551ef687757cff528236.svg",
     "static/media/utube.svg": "/Navbar-team/static/media/utube.f0d4a22f50e18c6b115405c7e261e33f.svg",
     "index.html": "/Navbar-team/index.html",
     "static/media/facebook.svg": "/Navbar-team/static/media/facebook.ff782f0a169aacd03100b70faef7f0cc.svg",
-    "main.9143efe6.css.map": "/Navbar-team/static/css/main.9143efe6.css.map",
-    "main.139eafb8.js.map": "/Navbar-team/static/js/main.139eafb8.js.map",
+    "main.66ebb5f3.css.map": "/Navbar-team/static/css/main.66ebb5f3.css.map",
+    "main.1b673196.js.map": "/Navbar-team/static/js/main.1b673196.js.map",
     "787.33996a2a.chunk.js.map": "/Navbar-team/static/js/787.33996a2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9143efe6.css",
-    "static/js/main.139eafb8.js"
+    "static/css/main.66ebb5f3.css",
+    "static/js/main.1b673196.js"
   ]
 }
