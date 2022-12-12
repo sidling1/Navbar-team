@@ -6,8 +6,7 @@ import '../CSS/index.css'
 function Sponsors() {
   return (
     <div>
-        <Nav/> 
-        <h1>Sponsors Page</h1>
+        <Nav/>
         <div className="container" >
         
         <div className="rect" >
