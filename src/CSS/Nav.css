@@ -1,8 +1,8 @@
-*{
+.navHeader{
     margin-top: 0;
 }
 
-a{
+.navHeader a{
     text-decoration: none;
 }
 
@@ -12,11 +12,10 @@ a{
     font-weight: 400;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    font-size: 23px;
-    line-height: 25px;
+    font-size: 1.3vw;
 
-    margin-top:20px;
-    padding-top:20px;
+    margin-top:2.3vw;
+    padding-top:1.8vw;
     background-image: url(../images/Back.png);
     
     background-position:top;
@@ -31,35 +30,37 @@ a{
 }
 header{
     width: 100%;
-    height: 12vh;
+    height: 7vw;
     background-color: bisque;
     display: grid;
     grid-template-columns: 2rem 1fr 3fr 1fr 2rem;
 
-    color: #1A1A1A;
+    color: #000000;
     font-family: 'Aileron';
-font-style: normal;
-font-weight: 900;
-font-size: 19px;
-line-height: 24px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.1vw;
+    /* identical to box height */
 
-text-align: center;
-text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
 }
-header div{
+.navHeader div{
     display: grid;
-    height: 12vh;
+    height: 7vw;
     grid-column: 2/3;
     justify-content: start;
     align-items: center;
 }
 nav{
-    height: 12vh;
+    height: 7vw;
     grid-column: 3/4;
 }
+.NavigationBar{
+    margin-top: 0.25vw;
+}
 .NavigationBar ul{
-    height: 12vh;
+    height: 7vw;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -86,11 +87,11 @@ li{
     justify-content: center;
 }
 img{
-    height: 6vh;
+    height: 3vw;
     width: 12vw;
 }
 
 .NavigationBar a{
-    height: 12vh;
+    height: 6vw;
     margin-top:8vh;
 }
