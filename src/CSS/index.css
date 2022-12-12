@@ -63,7 +63,7 @@ background-color: #FCFFF5; ;
 position: relative;
 width: 75vw;
 left: 213px;
-top: 530px;
+top: 336px;
 }
 .box1{
   display: flex;
@@ -130,7 +130,7 @@ flex-grow: 0;
   position: relative;
 width: 302px;
 height: 300px;
-top: 216px;
+top: 8px;
 
 background: #D9D9D9;
 
@@ -140,7 +140,7 @@ flex-grow: 0;
 }
 .oil{
   position: relative;
-  top: 180px;
+  top: 49px;
   width: 222px;
 height: 49px;
 
@@ -291,7 +291,7 @@ flex-wrap: wrap;
   }
   .layout{
     left: 0px;
-    top: 190px;
+    top: 0px;
     width: 100vw;
   }
   .frame{
@@ -311,7 +311,7 @@ flex-wrap: wrap;
   .ibox{
     width: 136px;
     height: 143px;
-    top: 98px;
+    top: -20px;
     right: 100px;
   }
   .oil{
@@ -321,6 +321,7 @@ flex-wrap: wrap;
     font-size: medium;
     margin-left: 50px;
     line-height: 27px;
+    top:-104px;
   }
   .box1{
     width: 100vw;
