@@ -13,9 +13,9 @@ function Home() {
     <div>
       <Nav />
       <div className="mainbody">
-                <div className="box1"></div>
-                <div className="box2"></div>
-                <div className="box3"></div>
+                <div className="box1home"></div>
+                <div className="box2home"></div>
+                <div className="box3home"></div>
                 <div className="text1">north east unvield</div>
                 <div className="text2"><p>North East India is a microcosm of India with its own diversity in terms of languages, culture, arts and religion. There is a need to promote and unveil the true potential of this part of country, which is still unexplored by many. In Alcheringa’16: Gamescape, The North East Social Entrepreneurship Summit and The North East Townhall Discussions were held under North East Unveiled.</p></div>
                 <div className='slider'>

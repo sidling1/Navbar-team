@@ -2,7 +2,7 @@
     font-family: "My Custom Font";
     src: url(../fonts/starguardsemital.ttf) format("truetype");
   }
-.box1
+.box1home
 {
     box-sizing: border-box;
 
@@ -15,7 +15,7 @@ top: 131px;
 background: #ED1B24;
 border: 5px solid #000000;
 }
-.box2{
+.box2home{
   box-sizing: border-box;
 
 position: absolute;
@@ -27,7 +27,7 @@ top: 192px;
 background: #FFE000;
 border: 5px solid #000000;
 }
-.box3
+.box3home
 {
   box-sizing: border-box;
 
@@ -48,7 +48,7 @@ height: 1754px;
 left: 1919px;
 top: 6771px;
 
-background:bisque;
+background:#FFFBF5;
 mix-blend-mode: multiply;
 transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -57,14 +57,14 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 {
   position: absolute;
 width: 85%;
-height: 17%;
+height: 40%;
 left:5%;
-top: 169px;
+top: 170px;
 
 font-family: 'My Custom Font';
 font-style: normal;
 font-weight: 400;
-font-size: 800%;
+font-size: 1250%;
 line-height: 75%;
 /* identical to box height, or 171% */
 
