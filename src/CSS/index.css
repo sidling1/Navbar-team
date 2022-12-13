@@ -11,7 +11,7 @@ background: #FCFFF5;
 
 .rect{
   position: relative;
-width:100vw;
+width:auto;
 height: 260.07px;
 left: 0px;
 top: 225px;
@@ -22,7 +22,7 @@ top: 225px;
 box-sizing: border-box;
 
 position: relative;
-width: 100vw;
+width:auto;
 height: 167.07px;
 left: 0px;
 top: 0px;
@@ -34,7 +34,7 @@ box-shadow: 2px 3px 3px yellow;
 
 .para{
   position: relative;
-  width: 100vw;
+  width: auto;
   height: 159px;
   left: 0px;
   top: -9.22px;
