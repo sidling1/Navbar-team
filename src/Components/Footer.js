@@ -9,6 +9,7 @@ import { ReactComponent as Insta } from '../images/insta.svg';
 import { ReactComponent as Facebook } from '../images/facebook.svg';
 import { ReactComponent as Youtube } from '../images/utube.svg';
 import { ReactComponent as Twitter } from '../images/twitter.svg';
+import Logo from './Logo';
 
 
 function Footer() {
@@ -18,7 +19,7 @@ function Footer() {
         color: 'white',
     
     }} className='footer'>
-        <div classname='options'>
+        <div className='options'>
             <ul>
                     <li><NavLink to="/Events">EVENTS</NavLink></li>
                     <li><NavLink to="/Merch">MERCH</NavLink></li>
@@ -28,8 +29,8 @@ function Footer() {
                     <li><NavLink to="/Sponsors">SPONSORS</NavLink></li>
                     <li><NavLink to="/Contests">CONTESTS</NavLink></li>
             </ul>
-        <div>Alcher Logo</div>
         </div>
+        <div><Logo/></div>
         <div>
             <div className='hail'>HAIL <br/> ALCHER!</div>
             <div className="stones">
@@ -48,15 +49,7 @@ function Footer() {
             </div>
         </div>
         <div>
-            <div style={{
-                display:"flex",
-                flexDirection:"column",
-                position:"absolute",
-                right: "120px",
-                bottom:"350px",
-                height:"184px",
-                justifyContent:"space-between",
-            }}>
+            <div className='contact'>
                 <div className='shareka'>
                     <b>Shareka Iqbal</b> <br></br>
                     PR HEAD<br></br>
@@ -68,14 +61,7 @@ function Footer() {
                         +91 9983072631
                 </div>
             </div>
-            <div style={{
-                display:"flex",
-                flexDirection:"column",
-                height:"fit-content",
-                position:"absolute",
-                bottom: "50px",
-                right: "120px",
-            }}>
+            <div className='socialIcon'>
                 <div className="socials">
                     <a href=''><Insta/></a>
                     <a href=''><Facebook/></a>
