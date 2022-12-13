@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/'           element = {<Home />}/>
+        <Route path='*'           element = {<Home />}/>
         <Route path='Events'      element = {<Events />}/>
         <Route path='Merch'       element = {<Merch />}/>
         <Route path='Campaigns'   element = {<Campaigns />}/>
@@ -23,7 +23,7 @@ function App() {
         <Route path='Sponsors'    element = {<Sponsors />}/>
         <Route path='Contests'    element = {<Contests />}/>
         <Route path='BookTickets' element = {<BookTickets />} />
-        <Route path='*'           element = {<ErrorPage />} />
+        {/* <Route path='*'           element = {<ErrorPage />} /> */}
       </Routes>
     </BrowserRouter>
   );
