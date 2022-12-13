@@ -8,11 +8,11 @@ import Navpopup from './Navpopup'
 function Nav() {
     return (
     <div>
-        <header className='navHeader'>
+        <header className='navHeader gradient'>
             <div><Logo/></div>
             <nav className='NavigationBar'>
                 <ul className='NavigationList'>
-                    <li className="Events"><NavLink to="/Events">EVENTS</NavLink></li>
+                    <li className="Events"><NavLink to="/Events"><b>EVENTS</b></NavLink></li>
                     <li className="Merch"><NavLink to="/Merch">MERCH</NavLink></li>
                     <li className='Campaigns'><NavLink to="/Campaigns">CAMPAIGNS</NavLink></li>
                     <li className='Teams'><NavLink to="/Teams">TEAMS</NavLink></li>
