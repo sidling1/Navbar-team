@@ -1,15 +1,16 @@
-import React from 'react'
-import Footer from './Footer'
-import Nav from './Nav'
+import React from "react";
+import Footer from "./Footer";
+import Nav from "./Nav";
+import Home from "./Teamshome";
 
 function Teams() {
-  return (
-    <div>
-        <Nav /> 
-        <h1>Teams Page</h1>
-        <Footer />
-    </div>
-  )
+    return (
+        < div >
+        <Nav / >
+        <Home / >
+        <Footer / >
+        </div>
+    );
 }
 
-export default Teams
+export default Teams;
