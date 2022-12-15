@@ -1,4 +1,4 @@
-@@font-face {font-family:"Star Guard Semi-Italic";src:url("starguardsemital.ttf")}
+@font-face {font-family:"Star Guard Semi-Italic";src:url("starguardsemital.ttf")}
 *{
   margin:0px;
   padding:0px;
@@ -58,7 +58,7 @@ flex-direction: column;
 align-items: center;
 padding: 0px;
 gap: 120px;
-background-color: #FCFFF5; ;
+background-color: #FCFFF5;
 
 position: relative;
 width: 75vw;
