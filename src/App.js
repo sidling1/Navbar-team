@@ -1,20 +1,20 @@
 import './App.css';
 import { BrowserRouter,Route, Routes} from 'react-router-dom';
-import Home from './Components/Home';
-import Events from './Components/Events';
-import Merch from './Components/Merch';
-import Campaigns from './Components/Campaigns';
-import Teams from './Components/Teams';
-import MUN from './Components/MUN';
-import Sponsors from './Components/Sponsors';
-import Contests from './Components/Contests';
+import Home from './Components/Home/';
+import Events from './Components/Events/Events';
+import Merch from './Components/Merch/Merch';
+import Campaigns from './Components/Campaigns/Campaigns';
+import Teams from './Components/Teams/Teams';
+import MUN from './Components/MUN/MUN';
+import Sponsors from './Components/Sponsors/Sponsors';
+import Contests from './Components/Contests/Contests';
 import ErrorPage from './Components/ErrorPage';
-import BookTickets from './Components/BookTickets';
+import BookTickets from './Components/BookTickets/BookTickets';
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='*'           element = {<Home />}/>
+        <Route path='/'           element = {<Home />}/>
         <Route path='Events'      element = {<Events />}/>
         <Route path='Merch'       element = {<Merch />}/>
         <Route path='Campaigns'   element = {<Campaigns />}/>
@@ -23,7 +23,7 @@ function App() {
         <Route path='Sponsors'    element = {<Sponsors />}/>
         <Route path='Contests'    element = {<Contests />}/>
         <Route path='BookTickets' element = {<BookTickets />} />
-        {/* <Route path='*'           element = {<ErrorPage />} /> */}
+        <Route path='*'           element = {<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );
