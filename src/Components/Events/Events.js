@@ -1,8 +1,8 @@
 import React from 'react'
-import Footer from './Footer'
-import Nav from './NavBar/Nav'
-import ImgAsset from '../images'
-import '../CSS/Events.css'
+import Footer from '../Footer/Footer'
+import Nav from '../NavBar/Nav'
+import ImgAsset from './Images'
+import './Events.css'
 
 function Events() {
   return (

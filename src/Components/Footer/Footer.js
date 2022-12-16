@@ -1,15 +1,15 @@
 import React from 'react'
-import '../CSS/Footer.css'
+import './Footer.css'
 import RedStone from './RedStone';
 import GreenStone from './GreenStone';
 import YellowStone from './YellowStone';
 import VioletStone from './VioletStone';
 import { NavLink } from 'react-router-dom';
-import { ReactComponent as Insta } from 'Images/insta.svg';
-import { ReactComponent as Facebook } from 'Images/facebook.svg';
-import { ReactComponent as Youtube } from 'Images/utube.svg';
-import { ReactComponent as Twitter } from 'Images/twitter.svg';
-import Logo from './NavBar/Images/Logo';
+import { ReactComponent as Insta } from './Images/insta.svg';
+import { ReactComponent as Facebook } from './Images/facebook.svg';
+import { ReactComponent as Youtube } from './Images/utube.svg';
+import { ReactComponent as Twitter } from './Images/twitter.svg';
+import Logo from '../NavBar/Images/logo.png';
 
 
 function Footer() {

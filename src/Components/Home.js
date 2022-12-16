@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from './Footer'
+import Footer from './Footer/Footer'
 import Nav from './NavBar/Nav'
 import '../CSS/Home.css'
 import img1 from '../images/home1.png'
