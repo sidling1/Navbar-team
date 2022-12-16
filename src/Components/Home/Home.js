@@ -1,13 +1,13 @@
 import React from 'react'
-import Footer from './Footer/Footer'
-import Nav from './NavBar/Nav'
-import '../CSS/Home.css'
-import img1 from '../images/home1.png'
-import img2 from '../images/home2.png'
-import img3 from '../images/home3.png'
-import img4 from '../images/home4.png'
-import img5 from '../images/home5.png'
-import img6 from '../images/home6.png'
+import Footer from '../Footer/Footer'
+import Nav from '../NavBar/Nav'
+import '../../CSS/Home.css'
+import img1 from '../../images/home1.png'
+import img2 from '../../images/home2.png'
+import img3 from '../../images/home3.png'
+import img4 from '../../images/home4.png'
+import img5 from '../../images/home5.png'
+import img6 from '../../images/home6.png'
 function Home() {
   return (
     <div>

@@ -9,8 +9,7 @@ import { ReactComponent as Insta } from './Images/insta.svg';
 import { ReactComponent as Facebook } from './Images/facebook.svg';
 import { ReactComponent as Youtube } from './Images/utube.svg';
 import { ReactComponent as Twitter } from './Images/twitter.svg';
-import Logo from '../NavBar/Images/logo.png';
-
+import Logo from '../NavBar/Logo';
 
 function Footer() {
  return (
