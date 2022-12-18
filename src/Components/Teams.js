@@ -6,9 +6,9 @@ import Home from './Home/Home'
 function Teams() {
   return (
     <div>
-        <Nav /> 
+        
         <Home />
-        <Footer />
+        
     </div>
   )
 }

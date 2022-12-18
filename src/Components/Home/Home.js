@@ -11,6 +11,7 @@ import img6 from '../../images/home6.png'
 function Home() {
   return (
     <div>
+        <Nav/>
       <div className="mainbody">
                 <div className="box1home"></div>
                 <div className="box2home"></div>
@@ -51,6 +52,7 @@ function Home() {
                     </div>
                 </div>
       </div>
+      <Footer/>
     </div>
   )
 }
