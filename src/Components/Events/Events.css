@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Star semi;
-	src: url(../fonts/starguardsemital.ttf) format("truetype");
+	src: url(../../fonts/starguardsemital.ttf) format("truetype");
 }
 
 html {
@@ -25,11 +25,12 @@ html {
 	top: 0px;
 	margin: auto;
 	width: 100%;
-	height: 100vh;
+	height: 205rem;
 	/* overflow: auto; */
+	background-color: #FFFBF5;
 	background: rgba(255,251,245,1.00);
 }
-.Frame14859_Frame14859 .paperboardyellowtexture2 {
+/* .Frame14859_Frame14859 .paperboardyellowtexture2 {
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -38,7 +39,7 @@ html {
 	object-fit: cover;
 	overflow: hidden;
 	mix-blend-mode: multiply;
-}
+} */
 .Frame14859_Frame14859 .Group244 {
 	position: absolute;
 	left: 24.2%;
