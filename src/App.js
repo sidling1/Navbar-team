@@ -1,15 +1,15 @@
 import './App.css';
 import { BrowserRouter,Route, Routes} from 'react-router-dom';
-import Home from './Components/Home/';
+import Home from './Components/Home/Home';
 import Events from './Components/Events/Events';
-import Merch from './Components/Merch/Merch';
-import Campaigns from './Components/Campaigns/Campaigns';
-import Teams from './Components/Teams/Teams';
-import MUN from './Components/MUN/MUN';
-import Sponsors from './Components/Sponsors/Sponsors';
-import Contests from './Components/Contests/Contests';
+import Merch from './Components/Merch';
+import Campaigns from './Components/Campaigns';
+import Teams from './Components/Teams';
+import MUN from './Components/MUN';
+import Sponsors from './Components/Sponsors';
+import Contests from './Components/Contests';
 import ErrorPage from './Components/ErrorPage';
-import BookTickets from './Components/BookTickets/BookTickets';
+import BookTickets from './Components/BookTickets';
 function App() {
   return (
     <BrowserRouter>

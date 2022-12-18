@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from './Footer'
-import Nav from './Nav'
-import Home from './Home'
+import Footer from './Footer/Footer'
+import Nav from './NavBar/Nav'
+import Home from './Home/Home'
 
 function Teams() {
   return (
