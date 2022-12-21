@@ -3,7 +3,7 @@ import { BrowserRouter,Route, Routes} from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Events from './Components/Events/Events';
 import Merch from './Components/Merch';
-import Campaigns from './Components/Campaigns';
+import Campaigns from './Components/Campaigns/Campaigns';
 import Teams from './Components/Teams';
 import MUN from './Components/MUN';
 import Sponsors from './Components/Sponsors';

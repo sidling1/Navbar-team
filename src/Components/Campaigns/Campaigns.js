@@ -1,24 +1,25 @@
 import React from 'react';
-import Footer from './Footer/Footer'
-import Nav from './NavBar/Nav'
-import '../CSS/Home.css'
-import '../CSS/Campaigns.css'
-import img1 from '../images/home1.png'
-import img2 from '../images/home2.png'
-import img3 from '../images/home3.png'
-import img4 from '../images/home4.png'
-import img5 from '../images/home5.png'
-import img6 from '../images/home6.png'
-import img7 from '../images/camp1.png'
-import img8 from '../images/camp2.png'
-import img9 from '../images/camp3.png'
+import Footer from '../Footer/Footer'
+import Nav from '../NavBar/Nav'
+import './Campaigns.css'
+import img1 from './images/home1.png'
+import img2 from './images/home2.png'
+import img3 from './images/home3.png'
+import img4 from './images/home4.png'
+import img5 from './images/home5.png'
+import img6 from './images/home6.png'
+import img7 from './images/camp1.png'
+import img8 from './images/camp2.png'
+import img9 from './images/camp3.png'
 function Campaigns() {
     return (
+      <div>
           <div className="mainbody">
             <Nav/>
             <Display/>
-          <Footer/>
           </div>
+          <Footer/>
+      </div>
         );
     }
     class Cards extends React.Component {
@@ -73,7 +74,7 @@ function Campaigns() {
                   <div className="cambox2"></div>
                   <div className="cambox3"></div>
                   <div className='desc'>
-                  <div className="text1">safar</div>
+                  <div className="text1">safher</div>
                   <div className="camtext2i">Campus residents get app-exclusive E-Pass access for offline events! Download the Alcheringa app today and explore our impressive event line-up and merchandise as we begin our Voyage to Neoterra.</div>
                   </div>
                   <div className='slideri'>
@@ -123,10 +124,7 @@ function Campaigns() {
         let boxWidth = document.getElementById("card").clientWidth;
         this.setState({ width: boxWidth });
       }
-      
-      // func: click the slider buttons
       handleClick(type) {
-        // get the card's margin-right
         let margin = window.getComputedStyle(document.getElementById("card")).marginRight;
         margin = JSON.parse(margin.replace(/px/i, '')); 
     
@@ -135,8 +133,6 @@ function Campaigns() {
         const cardNumber = 2; // the number of cards
         let currentCard = this.state.currentCard; // the index of the current card
         let position = this.state.position; // the position of the cards
-    
-        // slide cards
         if(type === 'next' && currentCard < cardNumber-1) {
           currentCard++;
           position -= (cardWidth+cardMargin);
