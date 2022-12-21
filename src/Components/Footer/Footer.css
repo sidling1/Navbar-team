@@ -1,5 +1,5 @@
 .footer{
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 35vw;
     left: 0px;
@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 .hail{
-    position: absolute;
+    position: relative;
     width: 17vw;
     height: 14vw;
     left: calc(50% - 17vw/2 - 1vw);
@@ -75,6 +75,9 @@
 .stones{
     display: flex;
     flex-direction: row;
+    position:relative;
+    bottom: calc(57% - 12vw/2 - 1vw);
+    left: calc(40% - 17vw/2 - 1vw);
 }
 
 .footer ul{
@@ -128,8 +131,8 @@
     display:flex;
     flex-direction:column;
     height:fit-content;
-    position:absolute;
-    bottom: 2vw;
+    position:relative;
+    top:4vw;
     right: 4vw;
 }
 .socials{

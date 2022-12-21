@@ -1,9 +1,9 @@
 import React from 'react'
-import pic from '../../images/green_stone.png';
+import pic from './Images/green_stone.png';
 
 const GreenStone = () => {
     return (  
-        <img src={pic}></img>
+        <img src={pic} alt = ""></img>
     );
 }
 

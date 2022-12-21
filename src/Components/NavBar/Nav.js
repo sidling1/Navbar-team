@@ -1,9 +1,8 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import '../CSS/Nav.css'
-import Pictures from './Pictures'
+import './Nav.css'
+import Book from './Book'
 import Logo from "./Logo"
-import Navpopup from './Navpopup'
 
 function Nav() {
     return (
@@ -23,7 +22,7 @@ function Nav() {
                     <li className='Contests'><NavLink to="/Contests">CONTESTS</NavLink></li>
                 </ul>
             </nav>
-            <Link className='image' to="/BookTickets"><Pictures /></Link>
+            <Link className='image' to="/BookTickets"><Book /></Link>
         </header>
     </div>
     )

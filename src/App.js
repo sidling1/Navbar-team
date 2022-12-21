@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter,Route, Routes} from 'react-router-dom';
-import Home from './Components/Home';
-import Events from './Components/Events';
+import Home from './Components/Home/Home';
+import Events from './Components/Events/Events';
 import Merch from './Components/Merch';
 import Campaigns from './Components/Campaigns';
 import Teams from './Components/Teams';
@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='*'           element = {<Home />}/>
+        <Route path='/'           element = {<Home />}/>
         <Route path='Events'      element = {<Events />}/>
         <Route path='Merch'       element = {<Merch />}/>
         <Route path='Campaigns'   element = {<Campaigns />}/>
@@ -23,7 +23,7 @@ function App() {
         <Route path='Sponsors'    element = {<Sponsors />}/>
         <Route path='Contests'    element = {<Contests />}/>
         <Route path='BookTickets' element = {<BookTickets />} />
-        {/* <Route path='*'           element = {<ErrorPage />} /> */}
+        <Route path='*'           element = {<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );
