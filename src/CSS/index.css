@@ -3,14 +3,14 @@
     src: url("starguardsemital.ttf")
 }
 
+
+.container{
+  position: relative;
+background-color: #FFFBF5;
+
 * {
     margin: 0px;
     padding: 0px;
-}
-
-.container {
-    position: relative;
-    background: #FCFFF5;
 }
 
 .rect {
@@ -33,6 +33,18 @@
     box-shadow: 2px 3px 3px yellow;
 }
 
+.layout{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 120px;
+position: relative;
+width: 75vw;
+left: 213px;
+top: 336px;
+
+
 .para {
     position: relative;
     width: auto;
@@ -50,20 +62,7 @@
     color: #FFFFFF;
     -webkit-text-stroke-color: #BE2626;
     -webkit-text-stroke-width: 1.87px;
-}
 
-.layout {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 120px;
-    background-color: #FCFFF5;
-    ;
-    position: relative;
-    width: 75vw;
-    left: 213px;
-    top: 336px;
 }
 
 .box1 {
