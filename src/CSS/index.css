@@ -6,7 +6,7 @@
 
 .container{
   position: relative;
-background: #FCFFF5;
+background-color: #FFFBF5;
 }
 
 .rect{
@@ -58,8 +58,6 @@ flex-direction: column;
 align-items: center;
 padding: 0px;
 gap: 120px;
-background-color: #FCFFF5; ;
-
 position: relative;
 width: 75vw;
 left: 213px;
