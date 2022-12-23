@@ -1,0 +1,147 @@
+.footer{
+    /* position: absolute; */
+    width: 100%;
+    height: 35vw;
+    left: 0px;
+    background: #0B0B0B;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hail{
+    position: relative;
+    width: 17vw;
+    height: 14vw;
+    left: calc(50% - 17vw/2 - 1vw);
+    top: calc(50% - 12vw/2 - 1vw);
+    font-family: 'Aka-AcidGR-Compacta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6vw;
+    line-height: 7vw;
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FEFCF0;
+    
+    text-shadow: 0px 14px 40px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.inqueries{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.29vw;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.red img{
+    width: 7vw;
+    height: 12vw;
+    position: relative;
+    top: 4vw;
+    left: 14vw;
+}
+
+.violet img{
+    width: 10vw;
+    height: 13vw;
+    position: relative;
+    top: 14vw;
+    left: -0.4vw;
+}
+
+.green img{
+    width: 10vw;
+    height: 13vw;
+    position: relative;
+    top: 20vw;
+    left: -1.5vw;
+}
+
+.yellow img{
+    width: 10vw;
+    height: 15vw;
+    position: relative;
+    left: -28.5vw;
+    top: 7vw;
+}
+
+.stones{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    bottom: calc(57% - 12vw/2 - 1vw);
+    left: calc(40% - 17vw/2 - 1vw);
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 6vw;
+    height: 17vw;
+    margin-left: 5vw;
+}
+
+.footer li{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.footer a{
+    color:white;
+    text-decoration: none;
+}
+.contact{
+    margin: 6vw 4vw 1vw 1vw;
+}
+.shareka{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-size: 1.4vw;
+    line-height: 1.6vw;
+    text-align: right;
+    margin: 2vw;
+    color: #fffffe;
+}
+.abhi{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-size: 1.4vw;
+    line-height: 1.6vw;
+    text-align: right;
+    margin: 2vw;
+    color: #fffffe;
+}
+.socialIcon{
+    display:flex;
+    flex-direction:column;
+    height:fit-content;
+    position:relative;
+    top:4vw;
+    right: 4vw;
+}
+.socials{
+    display:flex;
+    width: 27.5vw;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 0.5vw;
+}
+.socials a{
+    margin-right: 2vw;
+}

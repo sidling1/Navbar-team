@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "My Custom Font";
+  src: url(../../fonts/starguardsemital.ttf) format("truetype");
+}
+.mainbody
+{
+width: 100%;
+height: 1754px;
+left: 1919px;
+top: 6771px;
+
+background:#FFFBF5;
+mix-blend-mode: multiply;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.cambox1
+{
+    box-sizing: border-box;
+position:absolute;
+width: 200%;
+height: 53px;
+left: -20px;
+top: 131px;
+background: #FF598A;
+border: 5px solid #000000;
+}
+.cambox2{
+  box-sizing: border-box;
+
+position: absolute;
+width: 200%;
+height: 60px;
+left: -20px;
+top: 192px;
+
+background: #EAA1E2;
+border: 5px solid #000000;
+}
+.text1
+{
+  position: absolute;
+width: 85%;
+height: 40%;
+left:5%;
+top: 170px;
+
+font-family: 'My Custom Font';
+font-style: normal;
+font-weight: 400;
+font-size: 1250%;
+line-height: 75%;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+text-shadow:
+    -7px -7px 0 #000,  
+     7px -7px 0 #000,
+    -7px  7px 0 #000,
+     7px  7px 0 #000;
+}
+.cambox3
+{
+  box-sizing: border-box;
+
+position: absolute;
+width: 200%;
+height: 59px;
+left: -20px;
+top: 260px;
+
+background: #00B1EC;
+border: 5px solid #000000;
+
+}
+.slideri{
+  height: 250px;
+  margin: auto;
+  margin-left: 0px;
+  position: absolute;
+  width: 95%;
+  right: 4%;
+  display: grid;
+  top:1300%;
+  place-items: center;
+  overflow: hidden;
+  background-color: white;
+border-width: 2px 1px 6px 1px;
+border-style: solid;
+border-color: #000000;
+ border-top: 3px solid;
+  border-bottom: 3px solid;
+   height: 330px;
+}
+.cards-slider {
+  overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	height: 50%;
+	position: relative;
+	display: inline-block;
+  background: #FFFBF5;
+}
+
+.card {
+  float: left !important;
+	text-align: center;
+  background:#FFFBF5;
+  width: 100%;
+	position: relative;
+	display: inline-block;
+	left: 0;
+	clear: both;
+  margin-right: 5px;
+	float: none !important;
+	transition: transform .2s ease-in-out;
+	vertical-align: top;
+  padding: 20px 25px;
+}
+.slider-btn {
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  color: #b3b3b3;
+  width: 45px;
+  height: 100%;
+  border: 0;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  position: absolute;
+  z-index: 999;
+  transition: all 0.6s ease 0s;
+}
+
+.slider-btn:hover {
+  color: #5f5f5f;
+  background: rgba(0,0,0,0.2);
+}
+
+.btn-r {
+  right: 0;
+}
+.btn-l {
+  left: 0px;
+}
+.cambox1i
+{
+  box-sizing: border-box;
+
+  position:absolute;
+  width: 200%;
+  height: 53px;
+  left: -20px;
+  top: 131px;
+  
+  background: #F35C41;
+  border: 5px solid #000000;
+}
+.cambox2i{
+  box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 60px;
+left: -20px;
+top: 192px;
+
+background: #FEA82F;
+border: 5px solid #000000;
+}
+.cambox3i
+{
+  box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 59px;
+left: -20px;
+top: 260px;
+
+background: #099FBC;
+border: 5px solid #000000;
+
+}
+.camtext2i
+{
+  position: absolute;
+width: 90%;
+height: 115px;
+left: 5%;
+top: 900%;
+
+font-family: 'Aileron';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
+.card .desc {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.slide {
+  height: 200px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  perspective: 100px;
+}
+.slide-track:hover{
+  animation-play-state: paused;
+  
+}
+
+.slide-track {
+  display: flex;
+  width: calc(300px*10);
+  animation: scroll 40s linear infinite;
+  background-color: white;
+  /* border-top: 1px solid;
+  border-bottom: 1px solid; */
+  
+}
+@media only screen and (max-width:480px) {
+  .slide{
+    width: 220px;
+  }
+  img{
+    width: 200px;
+    padding: 2px;
+  }
+}
+@keyframes scroll{
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-300px*5));
+  }
+}
+
+.slide {
+  height: 200px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  /* margin-top: 50px; */
+  
+  perspective: 100px;
+}
+
+.imgcam{
+  height: 270px;
+  width: 490px;
+  transform: 0.5s;
+  border: 1px solid;
+  box-shadow: 2px 2px 3px black;
+  padding: 5px;
+  
+}
+img:hover{
+  transform: translateZ(12px);
+  border: none;
+  padding: 5px;
+  box-shadow: none;
+}
+
+.slider::before,
+.slider::after{
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%,
+  rgba(255,255,255,0) 100%);
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 2%;
+  z-index: 2;
+}
+
+.slider::before{
+  left: 0;
+  top: 0;
+}
+.slider::after{
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}

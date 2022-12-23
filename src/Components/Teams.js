@@ -1,13 +1,14 @@
 import React from 'react'
-import Footer from './Footer'
-import Nav from './Nav'
+import Footer from './Footer/Footer'
+import Nav from './NavBar/Nav'
+import Home from './Home/Home'
 
 function Teams() {
   return (
     <div>
-        <Nav /> 
-        <h1>Teams Page</h1>
-        <Footer />
+        
+        <Home />
+        
     </div>
   )
 }

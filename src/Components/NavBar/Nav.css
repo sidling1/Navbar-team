@@ -1,0 +1,139 @@
+.navHeader{
+    margin-top: 0;
+}
+
+.navHeader a{
+    text-decoration: none;
+}
+
+.NavigationBar .active{
+    font-family: 'Star Guard Semi-Italic';
+    font-style: italic;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 1.3vw;
+
+    margin-top:2.3vw;
+    padding-top:1.8vw;
+    background-image: url(./Images/Back.png);
+    
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.Events .active{
+    padding-top: 1.7vw;
+    margin-top: 1.8vw;
+    padding-left: 1.2vw;
+    padding-right: 1vw;
+}
+.Merch .active{
+    padding-top: 1.7vw;
+    margin-top: 1.8vw;
+    padding-left: 1.2vw;
+    padding-right: 1vw;
+}
+.Teams .active{
+    padding-top: 1.7vw;
+    margin-top: 1.8vw;
+    padding-left: 1.2vw;
+    padding-right: 1vw;
+}
+.Mun .active{
+    padding-top: 1.5vw;
+    margin-top: 2.8vw;
+    padding-left: 1.2vw;
+} 
+.Sponsors .active{
+    padding-top: 1.9vw;
+    margin-top: 1.8vw;
+    padding-left: 0.4vw;
+    padding-right: 0.5vw;
+}
+.Contests .active{
+    padding-top: 1.9vw;
+    margin-top: 1.8vw;
+    padding-left: 0.4vw;
+    padding-right: 0.5vw;
+}
+header{
+    width: 100%;
+    height: 7vw;
+    background-color: #FFFBF5;
+    background-blend-mode: multiply;
+    display: grid;
+    grid-template-columns: 2rem 1fr 3fr 1fr 2rem;
+
+    color: #000000;
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1vw;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+}
+.navHeader div{
+    display: grid;
+    height: 7vw;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+nav{
+    height: 7vw;
+    grid-column: 3/4;
+}
+.NavigationBar{
+    margin-top: 0.25vw;
+}
+.NavigationBar ul{
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: fit-content;
+}
+.NavigationBar a{
+    text-decoration: none;
+    color: black;
+    /* height: 12vh; */
+    /* background-color: aqua; */
+    padding-top: auto;
+}
+.image{
+    display: grid;
+    grid-column: 4/5;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 3vw;
+    width: 12vw;
+}
+
+.NavigationBar a{
+    height: 6vw;
+    margin-top:8vh;
+}
+.nonGradient{
+    transition: all 0.5s ease-in-out;
+}
+.gradient{
+    background-image: linear-gradient(180deg,#FFFBF5, transparent);
+}
