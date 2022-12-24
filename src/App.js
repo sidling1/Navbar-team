@@ -7,7 +7,7 @@ import Campaigns from './Components/Campaigns/Campaigns';
 import Teams from './Components/Teams';
 import MUN from './Components/MUN';
 import Sponsors from './Components/Sponsors';
-import Contests from './Components/Contests';
+import Contests from './Components/Contests/Contests';
 import ErrorPage from './Components/ErrorPage';
 import BookTickets from './Components/BookTickets';
 function App() {
