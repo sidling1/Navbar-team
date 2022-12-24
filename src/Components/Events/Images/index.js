@@ -28,4 +28,7 @@
 	Frame14859_Vector_9: tryRequire('./Frame14859_Vector_9.png') || require('./questionMark.png'),
 	Frame14859_Vector_10: tryRequire('./Frame14859_Vector_10.png') || require('./questionMark.png'),
 	Frame14859_Vector_11: tryRequire('./Frame14859_Vector_11.png') || require('./questionMark.png'),
+	Vector: tryRequire('./Vector.png') || require('./questionMark.png'),
+	xwxx1: tryRequire('./xwxx 1.png') || require('./questionMark.png'),
+	bookticket: tryRequire('./bookticket.png') || require('./questionMark.png'),
 	}
