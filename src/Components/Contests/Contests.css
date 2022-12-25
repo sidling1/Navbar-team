@@ -146,6 +146,8 @@ html {
 }
 
 .dte1 {
+	position: relative;
+	left: -2.9rem;
     display: flex;
     align-items: center;
     width: 15.1rem;
