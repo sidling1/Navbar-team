@@ -71,7 +71,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-	border: 0.238rem solid rgba(25.50000037997961,25.50000037997961,25.50000037997961,1);
+	border: 0.25rem solid rgba(25.50000037997961,25.50000037997961,25.50000037997961,1);
 	box-sizing: border-box;
 }
 
@@ -97,17 +97,29 @@ html {
     background: #099FBC;
 }
 
-.h1 {
-	height: 31.5px;
-    -webkit-text-stroke-width: 0.8px;
+.cmp1 {
+	position: relative;
+	left: 1.8rem;
+	height: 22.6rem;
+	width: 37rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.h11 {
+	position: relative;
+	top: -1rem;
+	height: 3.5rem;
+    -webkit-text-stroke-width: 0.12rem;
 	-webkit-text-stroke-color: black;
 	color: rgba(255,255,255,1.00);
 	font-family: Star Semi;
-	font-size: 36px;
+	font-size: 6rem;
 	font-weight: 900;
-	letter-spacing: -1px;
+	letter-spacing: -0.3rem;
 	font-style: italic;
-	line-height: 31.27180767059326px;
+	line-height: 4.9rem;
 }
 
 .iv11 {
@@ -137,35 +149,52 @@ html {
 	background: linear-gradient(180deg, rgba(243, 92, 65, 0.00) 0.0%, rgba(243, 92, 65, 1.00) 100.0%);
 }
 
-.dti1 {
+.dti11 {
     margin-top: 0.17rem;
 	color: rgba(26,26,26,1.00);
 	font-family: 'Aileron', sans-serif;
-	font-size: 1rem;
-	font-weight: 550;
+	font-size: 1.35rem;
+	font-weight: 600;
 }
 
-.dte1 {
+.dti12 {
+    margin-top: 0.17rem;
+	color: rgba(26,26,26,1.00);
+	font-family: 'Aileron', sans-serif;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.dte11 {
+	position: relative;
+	top: 1rem;
     display: flex;
     align-items: center;
-    width: 15.1rem;
+    width: 17.9rem;
     justify-content: space-between;
 }
 
-.cal1 {
-    width: 1.2rem;
-	height: 1.2rem;
+.dte12 {
+    display: flex;
+    align-items: center;
+    width: 17.9rem;
+    justify-content: space-between;
 }
 
-.t1 {
+.cal11 {
+    width: 1.4rem;
+	height: 1.5rem;
+}
+
+.t112 {
 	color: rgba(26,26,26,1.00);
 	font-family: 'Aileron', sans-serif;
-	font-size: 1.05rem;
+	font-size: 1.25rem;
 	letter-spacing:-0.03rem;
-	font-weight: 100;
+	font-weight: 200;
 	word-spacing: 0.00001rem;
-	line-height: 1.3rem;
-    width: 22rem;
+	line-height: 1.5rem;
+    width: 35rem;
 }
 
 .cmp2 {

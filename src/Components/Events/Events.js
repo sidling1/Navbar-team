@@ -3,6 +3,7 @@ import Footer from '../Footer/Footer'
 import Nav from '../NavBar/Nav'
 import ImgAsset from './Images'
 import './Events.css'
+import { NavLink, Link } from 'react-router-dom'
 
 function Events() {
   return (
@@ -17,16 +18,16 @@ function Events() {
                   <div className='g11'>
                     <div className='r111' id='r1111'>
                       <div className='cmp1'>
-                        <span className='dti1'>Day One - Pronites</span>
-                      ` <div className='h1'>BANGER EVENT</div>
-                        <div className='t1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </div>
-                        <div className='dte1'>
+                        <span className='dti11'>Day One - Pronites</span>
+                      <div className='h11'>BANGER EVENT</div>
+                        <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                        <div className='dte11'>
                           <img className='cal1' src = {ImgAsset.Frame14859_Vector_8} />
-                          <span className='dti1'>29th February 2022, 8:00 PM</span>
+                          <span className='dti12'>29th February 2022, 8:00 PM</span>
                         </div>
-                        <div className='dte1'>
+                        <div className='dte12'>
                           <img className='cal1' src = {ImgAsset.Vector} />
-                          <span className='dti1'>Cricket Ground, IIT Guwahati</span>
+                          <span className='dti12'>Cricket Ground, IIT Guwahati</span>
                         </div>
                       </div>
                       <div className='cmp2'>
@@ -35,13 +36,15 @@ function Events() {
                             {/* <div className='shade1'></div> */}
                         </div>
                         <div className='gr11'>
-                        <div className='rct11'/>
-                        <div className='frame11'>
-                          <div className='outline11'>
-                            <img className='vector11' src = {ImgAsset.bookticket} />
-                          </div>
-                          <span className='reg11'>BOOK TICKETS</span>
-                          </div>
+                        <Link className='image' to="/BookTickets">
+                          <div className='rct11'/>
+                          <div className='frame11'>
+                            <div className='outline11'>
+                              <img className='vector11' src = {ImgAsset.bookticket} />
+                            </div>
+                            <span className='reg11'>BOOK TICKETS</span>
+                            </div>
+                        </Link>
                         </div>
                       </div>
                     </div>
@@ -57,26 +60,28 @@ function Events() {
                             {/* <div className='shade1'></div> */}
                         </div>
                         <div className='gr11'>
-                        <div className='rct11'/>
-                        <div className='frame11'>
-                          <div className='outline11'>
-                            <img className='vector11' src = {ImgAsset.bookticket} />
-                          </div>
-                          <span className='reg11'>BOOK TICKETS</span>
-                          </div>
+                        <Link className='image' to="/BookTickets">
+                          <div className='rct11'/>
+                          <div className='frame11'>
+                            <div className='outline11'>
+                              <img className='vector11' src = {ImgAsset.bookticket} />
+                            </div>
+                            <span className='reg11'>BOOK TICKETS</span>
+                            </div>
+                        </Link>
                         </div>
                       </div>
                       <div className='cmp1'>
-                        <span className='dti1'>Day One - Pronites</span>
-                      ` <div className='h1'>BANGER EVENT</div>
-                        <div className='t1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </div>
-                        <div className='dte1'>
+                        <span className='dti11'>Day One - Pronites</span>
+                      <div className='h11'>BANGER EVENT</div>
+                        <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                        <div className='dte11'>
                           <img className='cal1' src = {ImgAsset.Frame14859_Vector_8} />
-                          <span className='dti1'>29th February 2022, 8:00 PM</span>
+                          <span className='dti12'>29th February 2022, 8:00 PM</span>
                         </div>
-                        <div className='dte1'>
+                        <div className='dte12'>
                           <img className='cal1' src = {ImgAsset.Vector} />
-                          <span className='dti1'>Cricket Ground, IIT Guwahati</span>
+                          <span className='dti12'>Cricket Ground, IIT Guwahati</span>
                         </div>
                       </div>
                     </div>
@@ -87,16 +92,16 @@ function Events() {
                   <div className='g11'>
                     <div className='r111' id='r1111'>
                       <div className='cmp1'>
-                        <span className='dti1'>Day One - Pronites</span>
-                      ` <div className='h1'>BANGER EVENT</div>
-                        <div className='t1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </div>
-                        <div className='dte1'>
-                          <img className='cal1' src = {ImgAsset.Frame14859_Vector_8} />
-                          <span className='dti1'>29th February 2022, 8:00 PM</span>
+                        <span className='dti11'>Day One - Pronites</span>
+                      <div className='h11'>BANGER EVENT</div>
+                        <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                        <div className='dte11'>
+                          <img className='cal11' src = {ImgAsset.Frame14859_Vector_8} />
+                          <span className='dti12'>29th February 2022, 8:00 PM</span>
                         </div>
-                        <div className='dte1'>
-                          <img className='cal1' src = {ImgAsset.Vector} />
-                          <span className='dti1'>Cricket Ground, IIT Guwahati</span>
+                        <div className='dte12'>
+                          <img className='cal11' src = {ImgAsset.Vector} />
+                          <span className='dti12'>Cricket Ground, IIT Guwahati</span>
                         </div>
                       </div>
                       <div className='cmp2'>
@@ -105,13 +110,15 @@ function Events() {
                             {/* <div className='shade1'></div> */}
                         </div>
                         <div className='gr11'>
-                        <div className='rct11'/>
-                        <div className='frame11'>
-                          <div className='outline11'>
-                            <img className='vector11' src = {ImgAsset.bookticket} />
-                          </div>
-                          <span className='reg11'>BOOK TICKETS</span>
-                          </div>
+                        <Link className='image' to="/BookTickets">
+                          <div className='rct11'/>
+                          <div className='frame11'>
+                            <div className='outline11'>
+                              <img className='vector11' src = {ImgAsset.bookticket} />
+                            </div>
+                            <span className='reg11'>BOOK TICKETS</span>
+                            </div>
+                        </Link>
                         </div>
                       </div>
                     </div>
