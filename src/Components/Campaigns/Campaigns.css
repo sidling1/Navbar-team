@@ -2,9 +2,10 @@
   font-family: "My Custom Font";
   src: url(../../fonts/starguardsemital.ttf) format("truetype");
 }
+
 .mainbody
 {
-width: 100%;
+width: 100vw;
 height: 1754px;
 left: 1919px;
 top: 6771px;
@@ -17,7 +18,11 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 {
     box-sizing: border-box;
 position:absolute;
-width: 200%;
+display: flex;
+gap:8vh;
+align-items: center;
+flex-direction: column;
+width: 100%;
 height: 53px;
 left: -20px;
 top: 131px;
@@ -38,27 +43,22 @@ border: 5px solid #000000;
 }
 .text1
 {
-  position: absolute;
-width: 85%;
-height: 40%;
-left:5%;
-top: 170px;
-
+  position: relative;
 font-family: 'My Custom Font';
 font-style: normal;
 font-weight: 400;
-font-size: 1250%;
-line-height: 75%;
+font-size: 9vw;
+line-height: 22vh;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: uppercase;
 
 color: #FFFFFF;
 text-shadow:
-    -7px -7px 0 #000,  
-     7px -7px 0 #000,
-    -7px  7px 0 #000,
-     7px  7px 0 #000;
+-0.5vw -0.5vw 0 #000,
+0.5vw -0.5vw 0 #000,
+-0.5vw 0.5vw 0 #000,
+0.5vw 0.5vw 0 #000;;
 }
 .cambox3
 {
@@ -74,15 +74,79 @@ background: #00B1EC;
 border: 5px solid #000000;
 
 }
+.cambox1i
+{
+  box-sizing: border-box;
+align-items: center;
+  position:absolute;
+display: flex;
+flex-direction: column;
+gap:6vh;
+  width: 100%;
+  height: 53px;
+  left: -20px;
+  top: 131px;
+  
+  background: #F35C41;
+  border: 5px solid #000000;
+}
+.cambox2i{
+  box-sizing: border-box;
+align-items: center;
+position: absolute;
+width: 100%;
+height: 60px;
+left: -20px;
+top: 192px;
+
+background: #FEA82F;
+border: 5px solid #000000;
+}
+.cambox3i
+{
+  box-sizing: border-box;
+
+position: absolute;
+width: 100%;
+height: 59px;
+left: -20px;
+top: 260px;
+
+background: #099FBC;
+border: 5px solid #000000;
+
+}
+.camtext2i
+{box-sizing: border-box;
+  position: relative;
+width: 90vw;
+font-family: 'Aileron';
+font-style: normal;
+font-weight: 200;
+font-size: 2vw;
+line-height: 2vw;
+text-align: center;
+color: #000000;
+}
+@media only screen and (max-width:800px) {
+  .camtext2i{
+    font-size: 2.5vh;
+line-height: 2.5vh;
+   
+  }
+.cambox1i{
+  gap:0.5vh;
+}
+.cambox1{
+  gap:4vh;
+}}
 .slideri{
-  height: 250px;
   margin: auto;
   margin-left: 0px;
   position: absolute;
-  width: 95%;
-  right: 4%;
+  width: 100%;
   display: grid;
-  top:1300%;
+  top:50vh;
   place-items: center;
   overflow: hidden;
   background-color: white;
@@ -91,32 +155,101 @@ border-style: solid;
 border-color: #000000;
  border-top: 3px solid;
   border-bottom: 3px solid;
-   height: 330px;
+   height: 23vw;
 }
+.slide {
+  height: 6vw;
+  width: 27vw;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  perspective: 100px;
+}
+.slide-track:hover{
+  animation-play-state: paused;
+  
+}
+
+.slide-track {
+  display: flex;
+  width: 90vw;
+  animation: scroll 40s linear infinite;
+  background-color: white;
+  /* border-top: 1px solid;
+  border-bottom: 1px solid; */
+  
+}
+@keyframes scroll{
+  0% {
+    transform: translateX(-4vw);
+  }
+  100% {
+    transform: translateX(calc(-27vw*4));
+  }
+}
+.imgcam{
+  height: 18vw;
+  width: 27vw;
+  transform: 0.5s;
+  border: 1px solid;
+  box-shadow: 2px 2px 3px black;
+  padding: 5px;
+  
+}
+.imgcam:hover{
+  transform: translateZ(12px);
+  border: none;
+  padding: 5px;
+  box-shadow: none;
+}
+
+.slideri::before,
+.slideri::after{
+  
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 0;
+  z-index: 2;
+}
+
+.slideri::before{
+  left: 0;
+  top: 0;
+}
+.slideri::after{
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
 .cards-slider {
   overflow: hidden;
 	white-space: nowrap;
 	width: 100%;
-	height: 50%;
+	height: 60%;
 	position: relative;
 	display: inline-block;
   background: #FFFBF5;
 }
 
 .card {
-  float: left !important;
-	text-align: center;
+  align-items: center;
   background:#FFFBF5;
   width: 100%;
 	position: relative;
 	display: inline-block;
 	left: 0;
 	clear: both;
-  margin-right: 5px;
+  margin-right: 1vw;
 	float: none !important;
 	transition: transform .2s ease-in-out;
 	vertical-align: top;
   padding: 20px 25px;
+}
+.card .desc {
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 .slider-btn {
   padding: 0;
@@ -144,151 +277,4 @@ border-color: #000000;
 }
 .btn-l {
   left: 0px;
-}
-.cambox1i
-{
-  box-sizing: border-box;
-
-  position:absolute;
-  width: 200%;
-  height: 53px;
-  left: -20px;
-  top: 131px;
-  
-  background: #F35C41;
-  border: 5px solid #000000;
-}
-.cambox2i{
-  box-sizing: border-box;
-
-position: absolute;
-width: 100%;
-height: 60px;
-left: -20px;
-top: 192px;
-
-background: #FEA82F;
-border: 5px solid #000000;
-}
-.cambox3i
-{
-  box-sizing: border-box;
-
-position: absolute;
-width: 100%;
-height: 59px;
-left: -20px;
-top: 260px;
-
-background: #099FBC;
-border: 5px solid #000000;
-
-}
-.camtext2i
-{
-  position: absolute;
-width: 90%;
-height: 115px;
-left: 5%;
-top: 900%;
-
-font-family: 'Aileron';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-
-color: #000000;
-}
-.card .desc {
-  word-wrap: break-word;
-  white-space: pre-wrap;
-}
-.slide {
-  height: 200px;
-  width: 550px;
-  display: flex;
-  align-items: center;
-  padding: 16px;
-  perspective: 100px;
-}
-.slide-track:hover{
-  animation-play-state: paused;
-  
-}
-
-.slide-track {
-  display: flex;
-  width: calc(300px*10);
-  animation: scroll 40s linear infinite;
-  background-color: white;
-  /* border-top: 1px solid;
-  border-bottom: 1px solid; */
-  
-}
-@media only screen and (max-width:480px) {
-  .slide{
-    width: 220px;
-  }
-  img{
-    width: 200px;
-    padding: 2px;
-  }
-}
-@keyframes scroll{
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-300px*5));
-  }
-}
-
-.slide {
-  height: 200px;
-  width: 550px;
-  display: flex;
-  align-items: center;
-  padding: 16px;
-  /* margin-top: 50px; */
-  
-  perspective: 100px;
-}
-
-.imgcam{
-  height: 270px;
-  width: 490px;
-  transform: 0.5s;
-  border: 1px solid;
-  box-shadow: 2px 2px 3px black;
-  padding: 5px;
-  
-}
-img:hover{
-  transform: translateZ(12px);
-  border: none;
-  padding: 5px;
-  box-shadow: none;
-}
-
-.slider::before,
-.slider::after{
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%,
-  rgba(255,255,255,0) 100%);
-  content: '';
-  height: 100%;
-  position: absolute;
-  width: 2%;
-  z-index: 2;
-}
-
-.slider::before{
-  left: 0;
-  top: 0;
-}
-.slider::after{
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
 }
