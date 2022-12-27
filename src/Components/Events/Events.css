@@ -405,7 +405,7 @@ html {
 	font-family: Star semi;
     font-style: italic;
     font-weight: 900;
-    -webkit-text-stroke-width: 0.1rem;
+    -webkit-text-stroke-width: 0.05rem;
     -webkit-text-stroke-color: black;
     font-size: 1.3vw;
 
