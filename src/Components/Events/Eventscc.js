@@ -126,10 +126,10 @@ function Events() {
                 </div>
               </div>
               <div className='sidebar11'>
-                <span className='pronites1'>PRONITES</span>
-                <span className='CreatorsCamp1'>CREATORS CAMP</span>
-                <span className='HumourFest1'>HUMOUR FEST</span>
-                <span className='PROSHOWS1'>PROSHOWS</span>
+              <NavLink to="/Events/pt"><div className='pronites1'>PRONITES</div></NavLink>
+              <NavLink to="/Events/cc"><div className='CreatorsCamp1'>CREATORS CAMP</div></NavLink>
+              <NavLink to="/Events/hf"><div className='HumourFest1'>HUMOUR FEST</div></NavLink>
+              <NavLink to="/Events/ps"><div className='PROSHOWS1'>PROSHOWS</div></NavLink>
               </div>
           </div>
         <Footer />

@@ -273,11 +273,22 @@ html {
 	line-height: 12.008374214172363px;
 }
 
-
 .Frame14859_Frame14859 .pronites1 {
 	position: absolute;
+	left: 5.28%;
+	top: 26.5rem;
+	height: 1.8rem;
+	color: rgba(26,26,26,1.00);
+	font-family: 'Aileron',sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1.8rem;
+}
+
+.Frame14859_Frame14859 .active .pronites1 {
+	position: absolute;
 	left: 5.26%;
-	top: 23.7rem;
+	top: 24rem;
 	width: 10.5rem;
 	height: 5.7rem;
 	-webkit-text-stroke-width: 0.05rem;
@@ -293,6 +304,7 @@ html {
 	font-weight: 900;
 	line-height: 5.678048515319824rem;
 }
+
 .Frame14859_Frame14859 .CreatorsCamp1 {
 	position: absolute;
 	left: 5.28%;
@@ -303,6 +315,25 @@ html {
 	font-size: 1.5rem;
 	font-weight: 600;
 	line-height: 1.8rem;
+}
+
+.Frame14859_Frame14859 .active .CreatorsCamp1  {
+	left: 3%;
+	top: 28rem;
+	width: 20rem;
+	height: 5.7rem;
+	-webkit-text-stroke-width: 0.05rem;
+	-webkit-text-stroke-color: black;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Star semi;
+	font-style: italic;
+	font-size: 3.2rem;
+	letter-spacing: -0.1rem;
+	font-weight: 900;
+	line-height: 5.678048515319824rem;
 }
 .Frame14859_Frame14859 .HumourFest1 {
 	position: absolute;
@@ -315,6 +346,27 @@ html {
 	font-weight: 600;
 	line-height: 1.8rem;
 }
+
+.Frame14859_Frame14859 .active .HumourFest1 {
+	position: absolute;
+	left: 2.5%;
+	top: 31.5rem;
+	width: 20rem;
+	height: 5.7rem;
+	-webkit-text-stroke-width: 0.05rem;
+	-webkit-text-stroke-color: black;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Star semi;
+	font-style: italic;
+	font-size: 3.2rem;
+	letter-spacing: -0.1rem;
+	font-weight: 900;
+	line-height: 5.678048515319824rem;
+}
+
 .Frame14859_Frame14859 .PROSHOWS1 {
 	position: absolute;
 	left: 5.28%;
@@ -326,3 +378,55 @@ html {
 	font-weight: 600;
 	line-height: 1.8rem;
 }
+
+.Frame14859_Frame14859 .active .PROSHOWS1 {
+	position: absolute;
+	left: 5.25%;
+	top: 35.4rem;
+	width: 10.5rem;
+	height: 5.7rem;
+	-webkit-text-stroke-width: 0.05rem;
+	-webkit-text-stroke-color: black;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Star semi;
+	font-style: italic;
+	font-size: 3.2rem;
+	letter-spacing: -0.1rem;
+	font-weight: 900;
+	line-height: 5.678048515319824rem;
+}
+
+.ac b{
+	position: relative;
+	top: -3.3rem;
+	font-family: Star semi;
+    font-style: italic;
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.1rem;
+    -webkit-text-stroke-color: black;
+    font-size: 1.3vw;
+
+    color: #FFFFFF;
+
+	padding-top: 1.7vw;
+    margin-top: 1.8vw;
+    padding-left: 1.2vw;
+    padding-right: 1vw;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.ac {
+	position: relative;
+	top: 3rem;
+
+    background-image: url(./Images/Back.png);
+    
+    background-position:top;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+

@@ -1,17 +1,21 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
+import { useLocation } from "react-router-dom";
 import './Nav.css'
 import Book from './Book'
 import Logo from "./Logo"
 
 function Nav() {
+    const location = useLocation();
+    const { pathname } = location;
+    const splitLocation = pathname.split("/");
     return (
     <div>
         <header className='navHeader gradient'>
             <div><Logo/></div>
             <nav className='NavigationBar'>
                 <ul className='NavigationList'>
-                    <li className="Events"><NavLink to="/Events"><b>EVENTS</b></NavLink></li>
+                    <li className={splitLocation[2] === "cc" || splitLocation[2] === "ps" || splitLocation[2] === "hf"? "ac" : "Events"}><NavLink to="/Events/pt"><b>EVENTS</b></NavLink></li>
                     <li className="Merch"><NavLink to="/Merch">MERCH</NavLink></li>
                     <li className='Campaigns'><NavLink to="/Campaigns">CAMPAIGNS</NavLink></li>
                     <li className='Teams'><NavLink to="/Teams">TEAMS</NavLink></li>
