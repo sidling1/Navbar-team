@@ -3,6 +3,7 @@ import Footer from '../Footer/Footer'
 import Nav from '../NavBar/Nav'
 import ImgAsset from './Images'
 import './Contests.css'
+import { NavLink, Link } from 'react-router-dom'
 
 function Events() {
   return (
@@ -170,10 +171,10 @@ function Events() {
                 </div>
               </div>
               <div className='sidebar11'>
-                <span className='pronites'>PRONITES</span>
-                <span className='CreatorsCamp'>CREATORS CAMP</span>
-                <span className='HumourFest'>HUMOUR FEST</span>
-                <span className='PROSHOWS'>PROSHOWS</span>
+              <NavLink to="/Contests/pt1"><div className='pronites'>PRONITES</div></NavLink>
+              <NavLink to="/Contests/cc1"><div className='CreatorsCamp'>CREATORS CAMP</div></NavLink>
+              <NavLink to="/Contests/hf1"><div className='HumourFest'>HUMOUR FEST</div></NavLink>
+              <NavLink to="/Contests/ps1"><div className='PROSHOWS'>PROSHOWS</div></NavLink>
               </div>
           </div>
         <Footer />
