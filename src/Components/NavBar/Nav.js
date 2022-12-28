@@ -12,7 +12,7 @@ function Nav() {
     return (
     <div>
         <header className='navHeader gradient'>
-            <div><Logo/></div>
+            <div><Link to="/"><Logo/></Link></div>
             <nav className='NavigationBar'>
                 <ul className='NavigationList'>
                     <li className={splitLocation[2] === "cc" || splitLocation[2] === "ps" || splitLocation[2] === "hf"? "ac" : "Events"}><NavLink to="/Events/pt"><b>EVENTS</b></NavLink></li>
