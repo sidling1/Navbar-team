@@ -273,12 +273,23 @@ html {
 	line-height: 12.008374214172363px;
 }
 
+.upnav {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	position: sticky;
+	top: 0;
+	background-color: #FFFBF5;
+	background: linear-gradient(0deg, rgba(243, 92, 65, 0.00) -25%, #FFFBF5 100.0%);
+	width: 100%;
+	height: 10rem;
+}
+
 .sidebar11 {
 	display: flex;
-	position: absolute;
 	left: 28%;
 	width: 60rem;
-	height: 6rem;
+	height: 10rem;
 	justify-content: space-between;
 
 }
@@ -296,7 +307,7 @@ html {
 	font-family: 'Aileron',sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 
 .sidebar11 .pt {
@@ -310,7 +321,7 @@ html {
 	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 
 .Frame14859_Frame14859 .CreatorsCamp1 {
@@ -322,7 +333,7 @@ html {
 	font-family: 'Aileron',sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 
 .Frame14859_Frame14859 .active .CreatorsCamp1  {
@@ -341,7 +352,7 @@ html {
 	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 .Frame14859_Frame14859 .HumourFest1 {
 	/* position: absolute;
@@ -352,7 +363,7 @@ html {
 	font-family: 'Aileron',sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 
 .Frame14859_Frame14859 .active .HumourFest1 {
@@ -372,7 +383,7 @@ html {
 	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 
 .Frame14859_Frame14859 .PROSHOWS1 {
@@ -384,7 +395,7 @@ html {
 	font-family: 'Aileron',sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 
 .Frame14859_Frame14859 .active .PROSHOWS1 {
@@ -404,6 +415,6 @@ html {
 	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 

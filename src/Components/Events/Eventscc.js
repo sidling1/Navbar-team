@@ -122,11 +122,13 @@ function Events() {
                   </div>
                 </div>
               </div>
-              <div className='sidebar11'>
-              <NavLink to="/Events/pt"><div className="pronites1">PRONITES</div></NavLink>
-              <NavLink to="/Events/pt/cc"><div className='CreatorsCamp1'>CREATORS CAMP</div></NavLink>
-              <NavLink to="/Events/pt/hf"><div className='HumourFest1'>HUMOUR FEST</div></NavLink>
-              <NavLink to="/Events/pt/ps"><div className='PROSHOWS1'>PROSHOWS</div></NavLink>
+              <div className='upnav'>
+                <div className='sidebar11'>
+                <NavLink to="/Events/pt"><div className="pronites1">PRONITES</div></NavLink>
+                <NavLink to="/Events/pt/cc"><div className='CreatorsCamp1'>CREATORS CAMP</div></NavLink>
+                <NavLink to="/Events/pt/hf"><div className='HumourFest1'>HUMOUR FEST</div></NavLink>
+                <NavLink to="/Events/pt/ps"><div className='PROSHOWS1'>PROSHOWS</div></NavLink>
+                </div>
               </div>
           </div>
         <Footer />
