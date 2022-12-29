@@ -15,7 +15,7 @@ function Nav() {
             <div><Link to="/"><Logo/></Link></div>
             <nav className='NavigationBar'>
                 <ul className='NavigationList'>
-                    <li className={splitLocation[2] === "cc" || splitLocation[2] === "ps" || splitLocation[2] === "hf"? "ac" : "Events"}><NavLink to="/Events/pt"><b>EVENTS</b></NavLink></li>
+                    <li className="Events"><NavLink to="/Events/pt"><b>EVENTS</b></NavLink></li>
                     <li className="Merch"><NavLink to="/Merch"><b>MERCH</b></NavLink></li>
                     <li className='Campaigns'><NavLink to="/Campaigns"><b>CAMPAIGNS</b></NavLink></li>
                     <li className='Teams'><NavLink to="/Teams"><b>TEAMS</b></NavLink></li>

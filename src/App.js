@@ -22,9 +22,9 @@ function App() {
       <Routes>
         <Route path='/'           element = {<Home />}/>
         <Route path='/Events/pt'      element = {<Eventspt />}/>
-        <Route path='/Events/ps'      element = {<Eventsps />}/>
-        <Route path='/Events/cc'      element = {<Eventscc />}/>
-        <Route path='/Events/hf'      element = {<Eventshf />}/>
+        <Route path='/Events/pt/ps'      element = {<Eventsps />}/>
+        <Route path='/Events/pt/cc'      element = {<Eventscc />}/>
+        <Route path='/Events/pt/hf'      element = {<Eventshf />}/>
         <Route path='Merch'       element = {<Merch />}/>
         <Route path='Campaigns'   element = {<Campaigns />}/>
         <Route path='Teams'       element = {<Teams />}/>

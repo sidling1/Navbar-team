@@ -4,8 +4,13 @@ import Nav from '../NavBar/Nav'
 import ImgAsset from './Images'
 import './Events.css'
 import { NavLink, Link } from 'react-router-dom'
+import { useLocation } from "react-router-dom";
 
 function Events() {
+
+  const location = useLocation();
+  const { pathname } = location;
+  const splitLocation = pathname.split("/");
   return (
     
     <div>
@@ -18,7 +23,6 @@ function Events() {
                   <div className='g11'>
                     <div className='r111' id='r1111'>
                       <div className='cmp1'>
-                        <span className='dti11'>Day One - Pronites</span>
                       <div className='h11'>BANGER EVENT</div>
                         <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                         <div className='dte11'>
@@ -72,7 +76,6 @@ function Events() {
                         </div>
                       </div>
                       <div className='cmp1'>
-                        <span className='dti11'>Day One - Pronites</span>
                       <div className='h11'>BANGER EVENT</div>
                         <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                         <div className='dte11'>
@@ -91,8 +94,7 @@ function Events() {
                   <div className='recef11'/>
                   <div className='g11'>
                     <div className='r111' id='r1111'>
-                      <div className='cmp1'>
-                        <span className='dti11'>Day One - Pronites</span>
+                      <div className='cmp1'>                       
                       <div className='h11'>BANGER EVENT</div>
                         <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                         <div className='dte11'>
@@ -126,10 +128,10 @@ function Events() {
                 </div>
               </div>
               <div className='sidebar11'>
-              <NavLink to="/Events/pt"><div className='pronites1'>PRONITES</div></NavLink>
-              <NavLink to="/Events/cc"><div className='CreatorsCamp1'>CREATORS CAMP</div></NavLink>
-              <NavLink to="/Events/hf"><div className='HumourFest1'>HUMOUR FEST</div></NavLink>
-              <NavLink to="/Events/ps"><div className='PROSHOWS1'>PROSHOWS</div></NavLink>
+              <NavLink to="/Events/pt"><div className={splitLocation[2] === "pt" ? "pt" : "pronites1"}>PRONITES</div></NavLink>
+              <NavLink to="/Events/pt/cc"><div className='CreatorsCamp1'>CREATORS CAMP</div></NavLink>
+              <NavLink to="/Events/pt/hf"><div className='HumourFest1'>HUMOUR FEST</div></NavLink>
+              <NavLink to="/Events/pt/ps"><div className='PROSHOWS1'>PROSHOWS</div></NavLink>
               </div>
           </div>
         <Footer />
