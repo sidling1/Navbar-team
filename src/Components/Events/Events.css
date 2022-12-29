@@ -3,19 +3,75 @@
 	src: url(../../fonts/starguardsemital.ttf) format("truetype");
 }
 
-html {
-	font-size: 62.5%;
+@media(max-width:7680px){
+	html {
+		font-size: 300%;
+	}
+}
+
+@media(max-width:6720px){
+	html {
+		font-size: 262.5%;
+	}
+}
+
+@media(max-width:5760px){
+	html {
+		font-size: 225%;
+	}
+}
+
+@media(max-width:4800px){
+	html {
+		font-size: 187.5%;
+	}
+}
+
+@media(max-width:3840px){
+	html {
+		font-size: 150%;
+	}
+}
+
+@media(max-width:2800px){
+	html {
+		font-size: 130%;
+	}
+}
+
+@media(max-width: 3300px){
+	html {
+		font-size: 110%;
+	}
+}
+
+@media(max-width:2350px){
+	html {
+		font-size: 82%;
+	}
+}
+
+@media(max-width:1920px){
+	html {
+		font-size: 62.5%;
+	}
 }
 
 @media(max-width:998px) {
 	html {
-		font-size: 55%;
+		font-size: 37.5%;
+	}
+}
+
+@media(max-width:1400px) {
+	html {
+		font-size: 46%;
 	}
 }
 
 @media(max-width:768px) {
 	html {
-		font-size: 45%;
+		font-size: 31.5%;
 	}
 }
 
@@ -46,8 +102,8 @@ html {
 	top: 9.7rem;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between;
-	align-content: space-between; */
+	/* justify-content: space-between; */
+	align-items: center;
 	width: 69%;
 	height: 93.50269775390625rem;
 }
@@ -244,15 +300,15 @@ html {
 .outline11 {
     position: relative;
 	flex: none;
-	margin-right: 5.003489255905151px;
+	margin-right: 0.5003489255905151rem;
 	width: 1.6rem;
 	height: 1.8rem;
 }
 
 .vector11 {
     position: absolute;
-	left: 1.52001953125px;
-	top: 2.08502197265625px;
+	left: 0.152001953125rem;
+	top: 0.208502197265625rem;
 	width: 91.67349806768942%;
 	height: 66.66715460959686%;
 }
@@ -260,9 +316,9 @@ html {
 .reg11 {
     position: relative;
 	flex: none;
-	margin-right: 5.003489255905151px;
+	margin-right: 0.5003489255905151rem;
 	/* width: 48.75px; */
-	height: 12px;
+	height: 1.2rem;
 	display: flex;
 	justify-content: flex-end;
 	text-align: right;
@@ -270,7 +326,7 @@ html {
 	font-family: 'Aileron',sans-serif;
 	font-size: 1.25rem;
 	font-weight: 500;
-	line-height: 12.008374214172363px;
+	line-height: 1.2008374214172363rem;
 }
 
 .upnav {
