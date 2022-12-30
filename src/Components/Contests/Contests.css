@@ -104,7 +104,7 @@
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-content: space-between;
-	width: 59%;
+	width: 63%;
 	height: 96rem;
 }
 
@@ -115,6 +115,8 @@
 	width: 28.832666015625rem;
 	height: 45.21903076171875rem;
 	margin-bottom: 3rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 .g1 {
