@@ -15,13 +15,13 @@ function Events() {
     
     <div>
         <Nav />
-          <div className='Frame14859_Frame14859'>
+        <div className='Frame14859_Frame14859'>
               {/* <img className='paperboardyellowtexture2' src = {ImgAsset.Frame14859_paperboardyellowtexture3} /> */}
               <div className='Group2441'>
                 <div className='mg11'>
                   <div className='recef11'/>
                   <div className='g11'>
-                    <div className='r111' id='r1111'>
+                    <div className='r111r' id='r1111'>
                       <div className='cmp1'>
                       <div className='h11'>BANGER EVENT</div>
                         <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
@@ -57,7 +57,7 @@ function Events() {
                 <div className='mg11'>
                   <div className='recef11'/>
                   <div className='g11'>
-                    <div className='r111' id='r1111'>
+                    <div className='r111l' id='r1111'>
                       <div className='cmp2'>
                         <div className='iv11'>
                             <img className='i11' src = {ImgAsset.xwxx1} />
@@ -93,7 +93,7 @@ function Events() {
                 <div className='mg11'>
                   <div className='recef11'/>
                   <div className='g11'>
-                    <div className='r111' id='r1111'>
+                    <div className='r111r' id='r1111'>
                       <div className='cmp1'>                       
                       <div className='h11'>BANGER EVENT</div>
                         <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
@@ -133,12 +133,6 @@ function Events() {
                 <NavLink to="/Events/pt/cc"><div className='CreatorsCamp1'>CREATORS CAMP</div></NavLink>
                 <NavLink to="/Events/pt/hf"><div className='HumourFest1'>HUMOUR FEST</div></NavLink>
                 <NavLink to="/Events/pt/ps"><div className='PROSHOWS1'>PROSHOWS</div></NavLink>
-                </div>
-                
-                <div className='hamburger'>
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                  <span class="bar"></span>
                 </div>
               </div>
           </div>
