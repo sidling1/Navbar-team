@@ -129,6 +129,12 @@ function Events() {
                 <NavLink to="/Events/pt/hf"><div className='HumourFest1'>HUMOUR FEST</div></NavLink>
                 <NavLink to="/Events/pt/ps"><div className='PROSHOWS1'>PROSHOWS</div></NavLink>
                 </div>
+                
+                <div className='hamburger'>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </div>
               </div>
           </div>
         <Footer />
