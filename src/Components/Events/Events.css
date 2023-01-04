@@ -544,6 +544,7 @@
 		display: flex;
 		flex-direction: column;
 		height: fit-content;
+		width: auto;
 	}
 
 	.g11{
@@ -554,6 +555,7 @@
 		height: fit-content;
 		margin-bottom: 100 px;
 		position: relative;
+		width: auto;
 	}
 	
 
