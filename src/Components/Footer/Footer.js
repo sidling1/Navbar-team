@@ -62,10 +62,10 @@ function Footer() {
             </div>
             <div className='socialIcon'>
                 <div className="socials">
-                    <a href=''><Insta/></a>
-                    <a href=''><Facebook/></a>
-                    <a href=''><Twitter/></a>
-                    <a href=''><Youtube/></a>
+                    <a href='https://www.instagram.com/alcheringaiitg/' ><Insta/></a>
+                    <a href='https://www.facebook.com/alcheringaiitg' ><Facebook/></a>
+                    <a href='https://twitter.com/alcheringaiitg' ><Twitter/></a>
+                    <a href='https://www.youtube.com/@alcheringaIITG' ><Youtube/></a>
                 </div>
                 <div className='inqueries'>
                 For Business Inqueries: <b>alcheringa@iitg.ac.in</b>

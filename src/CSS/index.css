@@ -10,7 +10,7 @@
 
 .container {
   position: relative;
-  background: #fffbf5;
+background-color: #FFFBF5;
 }
 
 .rect {
@@ -23,7 +23,6 @@
 }
 
 .bg {
-
   box-sizing: border-box;
 
   position: relative;
@@ -191,7 +190,7 @@
 
   left: -16px;
   top: -13px;
-  border: 8.9588px solid #F8E55F
+  border: 8.9588px solid #F8E55F;
 }
 
 .copara {
