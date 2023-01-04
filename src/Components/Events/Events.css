@@ -216,7 +216,7 @@
 	color:white;
 	font-family: 'Aileron', sans-serif;
 	font-size: 1.35rem;
-	font-weight: 600;
+	font-weight: 500;
 	transform: rotate(-10deg);
 	
 }
@@ -553,7 +553,7 @@
 		padding-right: 5px;
 		height: fit-content;
 		margin-bottom: 100 px;
-
+		position: relative;
 	}
 	
 
