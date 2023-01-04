@@ -240,13 +240,13 @@
     width: 17.9rem;
     justify-content: space-between;
 	background-color:rgba(255, 98, 144, 1) ;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
 	margin-bottom: 0px;
 	transform: rotate(-4deg);
-	box-shadow: 3px 3px rgba(181, 55, 92, 1);
+	box-shadow: 0.3rem 0.3rem rgba(181, 55, 92, 1);
 }
 
 .dte12 {
@@ -255,13 +255,13 @@
     width: 17.9rem;
     justify-content: space-between;
 	background-color:rgba(255, 98, 144, 1) ;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
 	margin-top: 0px;
-	margin-left: 35px;
-	box-shadow: 3px 3px rgba(181, 55, 92, 1);
+	margin-left: 3.5rem;
+	box-shadow: 0.3rem 0.3rem rgba(181, 55, 92, 1);
 	
 }
 
