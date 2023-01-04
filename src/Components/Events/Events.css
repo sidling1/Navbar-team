@@ -85,7 +85,6 @@
 	/* overflow: auto; */
 	background-color: #FFFBF5;
 	background: rgba(255,251,245,1.00);
-	align-items: center;
 }
 /* .Frame14859_Frame14859 .paperboardyellowtexture2 {
 	position: absolute;
@@ -141,7 +140,7 @@
 	background: black;
 } 
 
-.r111,.r112,.r113 {
+.r111 {
     width: 86.99rem;
 	height: 22.6rem;
 	display: flex;
@@ -151,11 +150,6 @@
 }
 
 #r1111 {
-    background: #099FBC;
-}
-#r1112 {
-    background: #FEA82F;
-}#r1113 {
     background: #099FBC;
 }
 
@@ -375,15 +369,16 @@
 .sidebar11 .pt {
 	width: 10.5rem;
 	height: 5.7rem;
-	color: #F35C41;
-	font-family: 'Aileron',sans-serif;
-	font-size: 1.5rem;
+	-webkit-text-stroke-width: 0.05rem;
+	-webkit-text-stroke-color: black;
+	color: rgba(255,255,255,1.00);
+	font-family: Star semi;
+	font-style: italic;
+	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
 	line-height: 10rem;
 }
-
-
 
 .Frame14859_Frame14859 .CreatorsCamp1 {
 	/* position: absolute;
@@ -402,12 +397,15 @@
 	top: 28rem; */
 	width: 20rem;
 	height: 5.7rem;
-	color: #F35C41;
-	font-family: 'Aileron',sans-serif;
+	-webkit-text-stroke-width: 0.05rem;
+	-webkit-text-stroke-color: black;
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	font-size: 1.5rem;
+	color: rgba(255,255,255,1.00);
+	font-family: Star semi;
+	font-style: italic;
+	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
 	line-height: 10rem;
@@ -430,12 +428,15 @@
 	top: 31.5rem; */
 	width: 20rem;
 	height: 5.7rem;
-	color: #F35C41;
-	font-family: 'Aileron',sans-serif;
+	-webkit-text-stroke-width: 0.05rem;
+	-webkit-text-stroke-color: black;
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	font-size: 1.5rem;
+	color: rgba(255,255,255,1.00);
+	font-family: Star semi;
+	font-style: italic;
+	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
 	line-height: 10rem;
@@ -459,12 +460,15 @@
 	top: 35.4rem; */
 	width: 10.5rem;
 	height: 5.7rem;
+	-webkit-text-stroke-width: 0.05rem;
+	-webkit-text-stroke-color: black;
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	color: #F35C41;
-	font-family: 'Aileron',sans-serif;
-	font-size: 1.5rem;
+	color: rgba(255,255,255,1.00);
+	font-family: Star semi;
+	font-style: italic;
+	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
 	line-height: 10rem;

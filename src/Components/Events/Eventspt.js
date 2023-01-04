@@ -57,7 +57,7 @@ function Events() {
                 <div className='mg11'>
                   <div className='recef11'/>
                   <div className='g11'>
-                    <div className='r112' id='r1112'>
+                    <div className='r111' id='r1111'>
                       <div className='cmp2'>
                         <div className='iv11'>
                             <img className='i11' src = {ImgAsset.xwxx1} />
@@ -93,7 +93,7 @@ function Events() {
                 <div className='mg11'>
                   <div className='recef11'/>
                   <div className='g11'>
-                    <div className='r113' id='r1113'>
+                    <div className='r111' id='r1111'>
                       <div className='cmp1'>                       
                       <div className='h11'>BANGER EVENT</div>
                         <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
