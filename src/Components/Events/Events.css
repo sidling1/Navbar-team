@@ -558,6 +558,10 @@
 		flex-direction: column;
 		height: fit-content;
 		width: auto;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		margin-left: 4px;
+		margin-right: 4px;
 	}
 
 	.r111l {
@@ -578,7 +582,7 @@
 		height: fit-content;
 		margin-bottom: 100 px;
 		position: relative;
-		width: 90%;
+		width: auto;
 	}
 
 	.g11 {
@@ -586,6 +590,7 @@
 		margin-bottom: 100 px;
 		position: relative;
 		width: 100%;
+		box-shadow: 2px 2px;
 	}
 
 	.recef11 {
@@ -594,6 +599,5 @@
 		position: relative;
 		width: 100%;
 	}
-	
 
 }

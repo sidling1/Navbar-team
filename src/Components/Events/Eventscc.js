@@ -12,7 +12,7 @@ function Events() {
           <div className='Frame14859_Frame14859'>
               {/* <img className='paperboardyellowtexture2' src = {ImgAsset.Frame14859_paperboardyellowtexture3} /> */}
               <div className='Group2441'>
-                <div className='mg11'>
+                <div className='mg11' id='tile'>
                   <div className='recef11'/>
                   <div className='g11'>
                     <div className='r111r' id='r1111'>
@@ -48,7 +48,7 @@ function Events() {
                     </div>
                   </div>
                 </div>
-                <div className='mg11'>
+                <div className='mg11' id='tile'>
                   <div className='recef11'/>
                   <div className='g11'>
                     <div className='r111l' id='r1111'>
@@ -84,7 +84,7 @@ function Events() {
                     </div>
                   </div>
                 </div>
-                <div className='mg11'>
+                <div className='mg11' id='tile'>
                   <div className='recef11'/>
                   <div className='g11'>
                     <div className='r111r' id='r1111'>
