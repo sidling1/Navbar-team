@@ -185,6 +185,12 @@ function Events() {
                   <li><NavLink to="/Contests/vn/q">QUIZ</NavLink></li>
                   <li><NavLink to="/Contests/vn/dr">DRAMA</NavLink></li>
                 </ul>
+
+                <div className='hamburger'>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </div>
               {/* <NavLink to="/Contests/pt1"><div className='pronites'>PRONITES</div></NavLink>
               <NavLink to="/Contests/cc1"><div className='CreatorsCamp'>CREATORS CAMP</div></NavLink>
               <NavLink to="/Contests/hf1"><div className='HumourFest'>HUMOUR FEST</div></NavLink>
